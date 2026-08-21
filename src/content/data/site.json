@@ -1,57 +1,4 @@
 {
-  "site": {
-    "nameBn": "বগুড়া ডিবেটিং সোসাইটি",
-    "nameEn": "Bogura Debating Society",
-    "short": "BDS",
-    "sloganBn": "ভাষাকে করো অস্ত্র, যুক্তিকে করো শাণিত।",
-    "sloganEn": "Make language your weapon, sharpen it with reason.",
-    "founded": "০১ এপ্রিল ২০২৫",
-    "foundedEn": "01 April 2025",
-    "foundedISO": "2025-04-01",
-    "identityBn": "বগুড়া জেলার প্রথম পেশাদার ও একমাত্র জেলাভিত্তিক কেন্দ্রীয় বিতর্ক সংগঠন",
-    "identityEn": "Bogura district's first professional and only district-wide central debating organisation",
-    "addressBn": "R9WG+8GW, রোমেনা আফাজ রোড, বগুড়া – ৫৮০০",
-    "addressEn": "R9WG+8GW, Romena Afaz Road, Bogura 5800, Bangladesh",
-    "officeBn": "মোস্তাফাবিয়া প্রাথমিক বিদ্যালয় সংলগ্ন, উপশহর, বগুড়া",
-    "officeEn": "Beside Mostafabia Primary School, Upashahar, Bogura",
-    "phone": "01568-902699",
-    "phoneIntl": "+8801568902699",
-    "email": "boguradebatingsociety@gmail.com",
-    "facebook": "https://www.facebook.com/boguradebatingsociety",
-    "domain": "https://boguradebatingsociety.com",
-    "mapQuery": "Bogura+Debating+Society+Romena+Afaz+Road+Bogura"
-  },
-  "purpose": {
-    "bn": "তরুণদের মধ্যে যুক্তিবাদী চিন্তা, গবেষণা ও সংলাপের সংস্কৃতি গড়ে তোলা। নিয়মিত বিতর্ক প্রশিক্ষণ, কর্মশালা, আঞ্চলিক ও জাতীয় বিতর্ক প্রতিযোগিতা এবং পাবলিক ফোরাম আয়োজন।",
-    "en": "To build a culture of reasoned thinking, research and dialogue among young people — through regular debate training, workshops, regional and national competitions, and public forums."
-  },
-  "activities": [
-    {
-      "bn": "সপ্তাহে ৩–৪টি প্র্যাকটিস ডিবেট আয়োজন",
-      "en": "Three to four practice debates every week",
-      "icon": "gavel"
-    },
-    {
-      "bn": "দক্ষ মেন্টরদের দিয়ে ওয়ার্কশপ আয়োজন",
-      "en": "Workshops led by experienced mentors",
-      "icon": "graduation-cap"
-    },
-    {
-      "bn": "সদস্যদের মাঝে অভ্যন্তরীণ বিতর্ক প্রতিযোগিতা",
-      "en": "Intra-organisation competitions for members",
-      "icon": "trophy"
-    },
-    {
-      "bn": "জেলা, বিভাগীয় ও জাতীয় পর্যায়ের প্রতিযোগিতা আয়োজন",
-      "en": "Hosting district, divisional and national tournaments",
-      "icon": "landmark"
-    },
-    {
-      "bn": "বিভিন্ন প্রতিযোগিতায় BDS থেকে দল প্রেরণ",
-      "en": "Sending BDS teams to external competitions",
-      "icon": "send"
-    }
-  ],
   "heroStats": [
     {
       "value": "১৯",
@@ -80,6 +27,83 @@
       "bn": "বড় আয়োজন",
       "en": "Major events",
       "icon": "calendar-days"
+    }
+  ],
+  "site": {
+    "addressBn": "R9WG+8GW, রোমেনা আফাজ রোড, বগুড়া – ৫৮০০",
+    "founded": "০১ এপ্রিল ২০২৫",
+    "domain": "https://boguradebatingsociety.netlify.app",
+    "foundedISO": "2025-04-01",
+    "officeEn": "Beside Mostafabia Primary School, Upashahar, Bogura",
+    "facebook": "https://www.facebook.com/boguradebatingsociety",
+    "identityEn": "Bogura district's first professional and only district-wide central debating organisation",
+    "sloganEn": "Make language your weapon, sharpen it with reason.",
+    "officeBn": "মোস্তাফাবিয়া প্রাথমিক বিদ্যালয় সংলগ্ন, উপশহর, বগুড়া",
+    "foundedEn": "01 April 2025",
+    "identityBn": "বগুড়া জেলার প্রথম পেশাদার ও একমাত্র জেলাভিত্তিক কেন্দ্রীয় বিতর্ক সংগঠন",
+    "sloganBn": "ভাষাকে করো অস্ত্র, যুক্তিকে করো শাণিত।",
+    "phoneIntl": "+8801568902699",
+    "mapQuery": "Bogura+Debating+Society+Romena+Afaz+Road+Bogura",
+    "phone": "01568-902699",
+    "nameEn": "Bogura Debating Society",
+    "nameBn": "বগুড়া ডিবেটিং সোসাইটি",
+    "short": "BDS",
+    "email": "boguradebatingsociety@gmail.com",
+    "addressEn": "R9WG+8GW, Romena Afaz Road, Bogura 5800, Bangladesh"
+  },
+  "vision": {
+    "photo": "/images/uploads/whatsapp-image-2026-05-11-at-11.37.15-am.jpeg",
+    "photoLabel": "নেতৃত্বের ছবি",
+    "quote": "যে তরুণ যুক্তি দিয়ে কথা বলতে শেখে, সে কেবল বিতর্ক জেতে না সে নিজের জায়গাটা চিনে নেয়।",
+    "quoteEn": "A young person who learns to argue with reason does not just win debates they learn where they stand."
+  },
+  "activities": [
+    {
+      "bn": "সপ্তাহে ৩–৪টি প্র্যাকটিস ডিবেট আয়োজন",
+      "en": "Three to four practice debates every week",
+      "icon": "gavel"
+    },
+    {
+      "bn": "দক্ষ মেন্টরদের দিয়ে ওয়ার্কশপ আয়োজন",
+      "en": "Workshops led by experienced mentors",
+      "icon": "graduation-cap"
+    },
+    {
+      "bn": "সদস্যদের মাঝে অভ্যন্তরীণ বিতর্ক প্রতিযোগিতা",
+      "en": "Intra-organisation competitions for members",
+      "icon": "trophy"
+    },
+    {
+      "bn": "জেলা, বিভাগীয় ও জাতীয় পর্যায়ের প্রতিযোগিতা আয়োজন",
+      "en": "Hosting district, divisional and national tournaments",
+      "icon": "landmark"
+    },
+    {
+      "bn": "বিভিন্ন প্রতিযোগিতায় BDS থেকে দল প্রেরণ",
+      "en": "Sending BDS teams to external competitions",
+      "icon": "send"
+    }
+  ],
+  "memberBenefits": [
+    {
+      "bn": "ন্যাশনাল এক্সপোজার",
+      "en": "National exposure"
+    },
+    {
+      "bn": "লিডারশিপ ও টিম ম্যানেজমেন্ট",
+      "en": "Leadership & team management"
+    },
+    {
+      "bn": "পাবলিক স্পিকিং",
+      "en": "Public speaking"
+    },
+    {
+      "bn": "সার্টিফিকেট ও CV-ভ্যালু",
+      "en": "Certificates & CV value"
+    },
+    {
+      "bn": "কমিউনিটি",
+      "en": "A community"
     }
   ],
   "impactStats": [
@@ -129,28 +153,34 @@
       "icon": "scale"
     }
   ],
-  "memberBenefits": [
-    {
-      "bn": "ন্যাশনাল এক্সপোজার",
-      "en": "National exposure"
+  "hero": {
+    "main": {
+      "src": "/images/uploads/588761101_122166764210835481_4617508649200596747_n.jpg",
+      "label": "মূল ছবি"
     },
-    {
-      "bn": "লিডারশিপ ও টিম ম্যানেজমেন্ট",
-      "en": "Leadership & team management"
-    },
-    {
-      "bn": "পাবলিক স্পিকিং",
-      "en": "Public speaking"
-    },
-    {
-      "bn": "সার্টিফিকেট ও CV-ভ্যালু",
-      "en": "Certificates & CV value"
-    },
-    {
-      "bn": "কমিউনিটি",
-      "en": "A community"
-    }
-  ],
+    "thumbs": [
+      {
+        "src": "/images/uploads/576949325_122163767366835481_2221863025548007_n.jpg",
+        "label": "Quiz Quiz (BMSC)"
+      },
+      {
+        "src": "/images/uploads/577189227_122163915950835481_3765654311302123007_n.jpg",
+        "label": "Quiz Quiz (BMSC)"
+      },
+      {
+        "src": "/images/uploads/589397703_122167159556835481_3549340819553977809_n.jpg",
+        "label": "BGC Workshop"
+      },
+      {
+        "src": "/images/uploads/634133166_122178899540835481_1408949196399648641_n.jpg",
+        "label": "SHS Workshop"
+      },
+      {
+        "src": "/images/uploads/587102588_122166022310835481_747287995599358229_n.jpg",
+        "label": "Basics Workshop"
+      }
+    ]
+  },
   "formats": [
     {
       "key": "shonatoni",
@@ -193,38 +223,8 @@
       "descEn": "Three to five minutes on a single theme. BDS’s very first competition used this format."
     }
   ],
-  "hero": {
-    "main": {
-      "src": "/images/hero/main.jpg",
-      "label": "মূল ছবি"
-    },
-    "thumbs": [
-      {
-        "src": "/images/hero/thumb-1.jpg",
-        "label": "তর্ক তরঙ্গ ২৬"
-      },
-      {
-        "src": "/images/hero/thumb-2.jpg",
-        "label": "Beyond Words"
-      },
-      {
-        "src": "/images/hero/thumb-3.jpg",
-        "label": "ক্যাম্পাস কানেক্ট"
-      },
-      {
-        "src": "/images/hero/thumb-4.jpg",
-        "label": "Basics of Debate"
-      },
-      {
-        "src": "/images/hero/thumb-5.jpg",
-        "label": "কর্মশালা"
-      }
-    ]
-  },
-  "vision": {
-    "photo": "/images/team/leader.jpg",
-    "photoLabel": "নেতৃত্বের ছবি",
-    "quote": "যে তরুণ যুক্তি দিয়ে কথা বলতে শেখে, সে কেবল বিতর্ক জেতে না — সে নিজের জায়গাটা চিনে নেয়।",
-    "quoteEn": "A young person who learns to argue with reason does not just win debates — they learn where they stand."
+  "purpose": {
+    "bn": "তরুণদের মধ্যে যুক্তিবাদী চিন্তা, গবেষণা ও সংলাপের সংস্কৃতি গড়ে তোলা। নিয়মিত বিতর্ক প্রশিক্ষণ, কর্মশালা, আঞ্চলিক ও জাতীয় বিতর্ক প্রতিযোগিতা এবং পাবলিক ফোরাম আয়োজন।",
+    "en": "To build a culture of reasoned thinking, research and dialogue among young people — through regular debate training, workshops, regional and national competitions, and public forums."
   }
 }
