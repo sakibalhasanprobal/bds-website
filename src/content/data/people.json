@@ -52,24 +52,56 @@
     },
     {
       "slug": "executive",
-      "title": "কার্যনির্বাহী কমিটি ২০২৬–২৭",
-      "titleEn": "Executive Committee 2026–27",
-      "blurb": "বর্তমান কমিটি — দৈনন্দিন কার্যক্রম, কর্মশালা ও প্রতিযোগিতা পরিচালনার দায়িত্বে।",
-      "blurbEn": "The current committee, responsible for day-to-day operations, workshops and tournaments.",
+      "title": "অন্তর্বর্তী কমিটি ২০২৬–২৭",
+      "titleEn": "Interim Committee 2026–27",
+      "blurb": "বর্তমানে দায়িত্বে থাকা অন্তর্বর্তী কমিটি — দৈনন্দিন কার্যক্রম, কর্মশালা ও প্রতিযোগিতা পরিচালনার দায়িত্বে।",
+      "blurbEn": "The interim committee currently in charge of day-to-day operations, workshops and tournaments.",
       "people": [
         {
           "name": "মোহাম্মদ হাসিন শাহরিয়ার",
           "role": "ভারপ্রাপ্ত সভাপতি",
-          "affiliation": "VP (Admin & Finance) থেকে দায়িত্বপ্রাপ্ত, জুলাই ২০২৬"
+          "affiliation": "Acting President"
         },
         {
-          "name": "মার্জিয়া আক্তার",
-          "role": "সহ-সভাপতি — VP (Debate & Workshop)",
+          "name": "মোছাঃ মার্জিয়া আক্তার",
+          "role": "ভারপ্রাপ্ত সহ-সভাপতি",
+          "affiliation": "Acting Vice President",
           "note": "তর্ক তরঙ্গ ২৬-এর Debater of the Tournament"
         },
         {
           "name": "জুনাইদ আহমেদ তন্ময়",
-          "role": "দপ্তর সম্পাদক"
+          "role": "ভারপ্রাপ্ত সাধারণ সম্পাদক",
+          "affiliation": "Acting General Secretary"
+        },
+        {
+          "name": "রুমাইয়া বিনতে রশিদ",
+          "role": "ভারপ্রাপ্ত সাংগঠনিক সম্পাদক",
+          "affiliation": "Acting Organizing Secretary"
+        },
+        {
+          "name": "নাজমুস সাকিব অর্ণব",
+          "role": "ভারপ্রাপ্ত দপ্তর সম্পাদক",
+          "affiliation": "Acting Office Secretary"
+        },
+        {
+          "name": "মাইশা হাসানা",
+          "role": "ভারপ্রাপ্ত বিতর্ক ও কর্মশালা সম্পাদক",
+          "affiliation": "Acting Debate & Workshop Secretary"
+        },
+        {
+          "name": "নাহিয়া কহনা",
+          "role": "ভারপ্রাপ্ত জনসংযোগ সম্পাদক",
+          "affiliation": "Acting Public Relations Secretary"
+        },
+        {
+          "name": "রাফিকা তুল কোবরা",
+          "role": "ভারপ্রাপ্ত মানবসম্পদ সম্পাদক",
+          "affiliation": "Acting Human Resource Secretary"
+        },
+        {
+          "name": "আফরা অন্তি",
+          "role": "ভারপ্রাপ্ত কোষাধ্যক্ষ",
+          "affiliation": "Acting Treasurer"
         }
       ]
     },
