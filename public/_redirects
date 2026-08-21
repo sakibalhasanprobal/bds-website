@@ -1,0 +1,4 @@
+# Netlify redirects — রুট থেকে বাংলা সাইটে
+/                 /bn/          302
+/en               /en/          301
+/bn               /bn/          301

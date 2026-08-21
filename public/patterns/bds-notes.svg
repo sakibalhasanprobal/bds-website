@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 600" fill="none" stroke="#0b1220" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- open notebook -->
+  <g opacity=".75">
+    <path d="M420 180c-60-26-140-32-200-18v300c60-14 140-8 200 18z"/>
+    <path d="M420 180c60-26 140-32 200-18v300c-60-14-140-8-200 18z"/>
+    <path d="M420 180v300"/>
+    <path d="M262 224h124M262 258h132M262 292h100M262 326h124M262 360h84"/>
+    <path d="M456 214h124M456 248h132M456 282h100M456 316h124M456 350h84"/>
+    <path d="M404 168c8 6 8 12 0 18M436 168c-8 6-8 12 0 18"/>
+  </g>
+
+  <!-- cue cards stack -->
+  <g opacity=".55">
+    <g transform="rotate(-8 1140 300)">
+      <rect x="1020" y="196" width="240" height="160" rx="10"/>
+      <path d="M1046 236h188M1046 266h160M1046 296h120"/>
+    </g>
+    <g transform="rotate(4 1160 320)">
+      <rect x="1060" y="236" width="240" height="160" rx="10"/>
+      <path d="M1086 276h188M1086 306h160M1086 336h120"/>
+    </g>
+    <rect x="1092" y="286" width="240" height="160" rx="10"/>
+    <path d="M1118 326h188M1118 356h160M1118 386h120"/>
+  </g>
+
+  <!-- pen -->
+  <g opacity=".6">
+    <g transform="rotate(38 820 420)">
+      <path d="M800 300h40v170l-20 40-20-40z"/>
+      <path d="M800 340h40"/>
+      <path d="M800 440h40"/>
+      <path d="M820 470v30"/>
+    </g>
+  </g>
+
+  <!-- stopwatch -->
+  <g opacity=".45">
+    <circle cx="1470" cy="200" r="66"/>
+    <circle cx="1470" cy="200" r="54"/>
+    <path d="M1470 200v-34M1470 200l30 20"/>
+    <path d="M1452 124h36M1470 124v14"/>
+    <path d="M1518 148l18-18"/>
+  </g>
+
+  <!-- scattered ruled lines -->
+  <g opacity=".28">
+    <path d="M80 528h1440"/>
+    <path d="M760 172h180M760 200h140M760 228h96"/>
+  </g>
+</svg>

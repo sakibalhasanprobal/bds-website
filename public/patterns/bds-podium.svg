@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 600" fill="none" stroke="#0b1220" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+  <g opacity=".85">
+    <!-- speaker figure behind rostrum -->
+    <circle cx="470" cy="196" r="34"/>
+    <path d="M418 300c6-38 26-58 52-58s46 20 52 58"/>
+    <path d="M420 300c-10 10-16 22-18 36"/>
+    <path d="M522 300c10 10 16 22 18 36"/>
+    <!-- rostrum -->
+    <path d="M368 336h204l26 168H342z"/>
+    <path d="M352 336h236"/>
+    <path d="M360 400h224"/>
+    <path d="M470 336v168"/>
+    <!-- emblem on rostrum -->
+    <path d="M440 428h60v46h-60z"/>
+    <path d="M452 442h36M452 456h24"/>
+    <!-- papers on top -->
+    <path d="M392 330l52-16 60 12-8 14"/>
+    <path d="M404 322l50-12"/>
+    <!-- microphone -->
+    <path d="M556 340v-96"/>
+    <path d="M556 244c0-26 22-42 42-42"/>
+    <ellipse cx="608" cy="196" rx="20" ry="14" transform="rotate(-18 608 196)"/>
+    <path d="M596 206l-10 12"/>
+    <path d="M534 340h44"/>
+  </g>
+
+  <g opacity=".55">
+    <!-- raised hand (POI) right -->
+    <path d="M1108 476V346c0-12 9-21 20-21s20 9 20 21v78"/>
+    <path d="M1148 424v-98c0-12 9-21 20-21s20 9 20 21v98"/>
+    <path d="M1188 424v-78c0-12 9-21 20-21s20 9 20 21v82"/>
+    <path d="M1228 428v-52c0-12 9-21 20-21s20 9 20 21v92c0 58-38 96-92 96s-88-38-88-96v-32"/>
+    <path d="M1100 560h180"/>
+  </g>
+
+  <g opacity=".4">
+    <!-- second lectern, small, left -->
+    <path d="M118 396h96l14 108H104z"/>
+    <path d="M108 396h116"/>
+    <path d="M126 452h72"/>
+    <path d="M166 372v24"/>
+    <ellipse cx="166" cy="358" rx="12" ry="9"/>
+  </g>
+
+  <g opacity=".35">
+    <!-- speech marks -->
+    <path d="M836 168c-24 0-40 16-40 38s16 36 36 36c4 0 8 0 10-2-4 22-20 36-42 42"/>
+    <path d="M936 168c-24 0-40 16-40 38s16 36 36 36c4 0 8 0 10-2-4 22-20 36-42 42"/>
+    <!-- timer -->
+    <circle cx="1400" cy="212" r="52"/>
+    <path d="M1400 212V176M1400 212l26 18"/>
+    <path d="M1386 148h28M1400 148v12"/>
+    <path d="M1440 168l14-14"/>
+  </g>
+
+  <g opacity=".28">
+    <path d="M40 540h1520"/>
+    <path d="M700 540v-40M760 540v-70M820 540v-30"/>
+  </g>
+</svg>

@@ -1,0 +1,230 @@
+{
+  "site": {
+    "nameBn": "বগুড়া ডিবেটিং সোসাইটি",
+    "nameEn": "Bogura Debating Society",
+    "short": "BDS",
+    "sloganBn": "ভাষাকে করো অস্ত্র, যুক্তিকে করো শাণিত।",
+    "sloganEn": "Make language your weapon, sharpen it with reason.",
+    "founded": "০১ এপ্রিল ২০২৫",
+    "foundedEn": "01 April 2025",
+    "foundedISO": "2025-04-01",
+    "identityBn": "বগুড়া জেলার প্রথম পেশাদার ও একমাত্র জেলাভিত্তিক কেন্দ্রীয় বিতর্ক সংগঠন",
+    "identityEn": "Bogura district's first professional and only district-wide central debating organisation",
+    "addressBn": "R9WG+8GW, রোমেনা আফাজ রোড, বগুড়া – ৫৮০০",
+    "addressEn": "R9WG+8GW, Romena Afaz Road, Bogura 5800, Bangladesh",
+    "officeBn": "মোস্তাফাবিয়া প্রাথমিক বিদ্যালয় সংলগ্ন, উপশহর, বগুড়া",
+    "officeEn": "Beside Mostafabia Primary School, Upashahar, Bogura",
+    "phone": "01568-902699",
+    "phoneIntl": "+8801568902699",
+    "email": "boguradebatingsociety@gmail.com",
+    "facebook": "https://www.facebook.com/boguradebatingsociety",
+    "domain": "https://boguradebatingsociety.com",
+    "mapQuery": "Bogura+Debating+Society+Romena+Afaz+Road+Bogura"
+  },
+  "purpose": {
+    "bn": "তরুণদের মধ্যে যুক্তিবাদী চিন্তা, গবেষণা ও সংলাপের সংস্কৃতি গড়ে তোলা। নিয়মিত বিতর্ক প্রশিক্ষণ, কর্মশালা, আঞ্চলিক ও জাতীয় বিতর্ক প্রতিযোগিতা এবং পাবলিক ফোরাম আয়োজন।",
+    "en": "To build a culture of reasoned thinking, research and dialogue among young people — through regular debate training, workshops, regional and national competitions, and public forums."
+  },
+  "activities": [
+    {
+      "bn": "সপ্তাহে ৩–৪টি প্র্যাকটিস ডিবেট আয়োজন",
+      "en": "Three to four practice debates every week",
+      "icon": "gavel"
+    },
+    {
+      "bn": "দক্ষ মেন্টরদের দিয়ে ওয়ার্কশপ আয়োজন",
+      "en": "Workshops led by experienced mentors",
+      "icon": "graduation-cap"
+    },
+    {
+      "bn": "সদস্যদের মাঝে অভ্যন্তরীণ বিতর্ক প্রতিযোগিতা",
+      "en": "Intra-organisation competitions for members",
+      "icon": "trophy"
+    },
+    {
+      "bn": "জেলা, বিভাগীয় ও জাতীয় পর্যায়ের প্রতিযোগিতা আয়োজন",
+      "en": "Hosting district, divisional and national tournaments",
+      "icon": "landmark"
+    },
+    {
+      "bn": "বিভিন্ন প্রতিযোগিতায় BDS থেকে দল প্রেরণ",
+      "en": "Sending BDS teams to external competitions",
+      "icon": "send"
+    }
+  ],
+  "heroStats": [
+    {
+      "value": "১৯",
+      "valueEn": "19",
+      "bn": "অনুশীলনী বিতর্ক",
+      "en": "Practice debates",
+      "icon": "gavel"
+    },
+    {
+      "value": "১৭+",
+      "valueEn": "17+",
+      "bn": "প্রতিষ্ঠানে কর্মশালা",
+      "en": "Institutions reached",
+      "icon": "school"
+    },
+    {
+      "value": "১৩০+",
+      "valueEn": "130+",
+      "bn": "একক বক্তৃতায় অংশগ্রহণ",
+      "en": "Solo Speech entrants",
+      "icon": "mic"
+    },
+    {
+      "value": "৭",
+      "valueEn": "7",
+      "bn": "বড় আয়োজন",
+      "en": "Major events",
+      "icon": "calendar-days"
+    }
+  ],
+  "impactStats": [
+    {
+      "value": "১৯",
+      "valueEn": "19",
+      "bn": "অনুশীলনী বিতর্ক সম্পন্ন",
+      "en": "Practice debates completed",
+      "note": "এপ্রিল ২০২৫ – আগস্ট ২০২৬",
+      "noteEn": "Apr 2025 – Aug 2026",
+      "icon": "gavel"
+    },
+    {
+      "value": "১৭+",
+      "valueEn": "17+",
+      "bn": "স্কুল-কলেজে কর্মশালা",
+      "en": "School & college workshops",
+      "note": "ক্যাম্পাস কানেক্ট ক্যাম্পেইন",
+      "noteEn": "Campus Connect campaign",
+      "icon": "school"
+    },
+    {
+      "value": "৩০০+",
+      "valueEn": "300+",
+      "bn": "এক আয়োজনে সর্বোচ্চ অংশগ্রহণ",
+      "en": "Largest single audience",
+      "note": "সরকারি আজিজুল হক কলেজ, ২৭ নভে ২০২৫",
+      "noteEn": "Govt. Azizul Haque College, 27 Nov 2025",
+      "icon": "users"
+    },
+    {
+      "value": "৩",
+      "valueEn": "3",
+      "bn": "উপজেলায় পৌঁছানো",
+      "en": "Upazilas reached",
+      "note": "দুপচাঁচিয়া · গাবতলী · শিবগঞ্জ",
+      "noteEn": "Dupchanchia · Gabtali · Shibganj",
+      "icon": "map-pin"
+    },
+    {
+      "value": "৫৫০+",
+      "valueEn": "550+",
+      "bn": "শিক্ষার্থীর আয়োজনে বিচারকের দায়িত্ব",
+      "en": "Students judged at one festival",
+      "note": "কালচারাল ফেস্ট ২০২৬",
+      "noteEn": "Cultural Fest 2026",
+      "icon": "scale"
+    }
+  ],
+  "memberBenefits": [
+    {
+      "bn": "ন্যাশনাল এক্সপোজার",
+      "en": "National exposure"
+    },
+    {
+      "bn": "লিডারশিপ ও টিম ম্যানেজমেন্ট",
+      "en": "Leadership & team management"
+    },
+    {
+      "bn": "পাবলিক স্পিকিং",
+      "en": "Public speaking"
+    },
+    {
+      "bn": "সার্টিফিকেট ও CV-ভ্যালু",
+      "en": "Certificates & CV value"
+    },
+    {
+      "bn": "কমিউনিটি",
+      "en": "A community"
+    }
+  ],
+  "formats": [
+    {
+      "key": "shonatoni",
+      "bn": "সনাতনী বিতর্ক",
+      "en": "Traditional Debate",
+      "tag": "tag-shonatoni",
+      "descBn": "পক্ষ ও বিপক্ষ — তিনজন করে বক্তা, নির্দিষ্ট সময়, লিখিত প্রস্তুতি। BDS-এর সবচেয়ে বেশি চর্চিত ফরম্যাট।",
+      "descEn": "Government vs Opposition, three speakers each, prepared scripts. The format BDS practises most."
+    },
+    {
+      "key": "shongshodio",
+      "bn": "সংসদীয় বিতর্ক",
+      "en": "Parliamentary Debate",
+      "tag": "tag-shongshodio",
+      "descBn": "সরকারি ও বিরোধী দল, স্পিকার, পয়েন্ট অব ইনফরমেশন — সংসদের আদলে। এশিয়ান ও ব্রিটিশ পার্লামেন্টারি (ইংরেজি) এই ধারারই আন্তর্জাতিক রূপ।",
+      "descEn": "Government and Opposition benches, a Speaker and points of information. Asian and British Parliamentary are the international English forms of the same tradition."
+    },
+    {
+      "key": "baroari",
+      "bn": "বারোয়ারি বিতর্ক",
+      "en": "Barwari (Open) Debate",
+      "tag": "tag-baroari",
+      "descBn": "পক্ষ-বিপক্ষের গণ্ডি পেরিয়ে একক বক্তা নিজের মতো করে বিষয়টি ব্যাখ্যা করে।",
+      "descEn": "A solo format beyond for-and-against: each speaker interprets the topic in their own way."
+    },
+    {
+      "key": "romyo",
+      "bn": "রম্য বিতর্ক",
+      "en": "Humorous Debate",
+      "tag": "tag-romyo",
+      "descBn": "হাসির মোড়কে যুক্তি — উপস্থিত বুদ্ধি আর ভাষার খেলা।",
+      "descEn": "Argument wrapped in comedy — wit, timing and wordplay."
+    },
+    {
+      "key": "shol",
+      "bn": "একক বক্তৃতা",
+      "en": "Solo Speech",
+      "tag": "tag-shol",
+      "descBn": "৩–৫ মিনিটে একটি বিষয়ের উপর নিজের ভাবনা। BDS-এর প্রথম প্রতিযোগিতাই ছিল এই ফরম্যাটে।",
+      "descEn": "Three to five minutes on a single theme. BDS’s very first competition used this format."
+    }
+  ],
+  "hero": {
+    "main": {
+      "src": "/images/hero/main.jpg",
+      "label": "মূল ছবি"
+    },
+    "thumbs": [
+      {
+        "src": "/images/hero/thumb-1.jpg",
+        "label": "তর্ক তরঙ্গ ২৬"
+      },
+      {
+        "src": "/images/hero/thumb-2.jpg",
+        "label": "Beyond Words"
+      },
+      {
+        "src": "/images/hero/thumb-3.jpg",
+        "label": "ক্যাম্পাস কানেক্ট"
+      },
+      {
+        "src": "/images/hero/thumb-4.jpg",
+        "label": "Basics of Debate"
+      },
+      {
+        "src": "/images/hero/thumb-5.jpg",
+        "label": "কর্মশালা"
+      }
+    ]
+  },
+  "vision": {
+    "photo": "/images/team/leader.jpg",
+    "photoLabel": "নেতৃত্বের ছবি",
+    "quote": "যে তরুণ যুক্তি দিয়ে কথা বলতে শেখে, সে কেবল বিতর্ক জেতে না — সে নিজের জায়গাটা চিনে নেয়।",
+    "quoteEn": "A young person who learns to argue with reason does not just win debates — they learn where they stand."
+  }
+}

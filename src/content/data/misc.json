@@ -1,0 +1,383 @@
+{
+  "timeline": [
+    {
+      "date": "০১ এপ্রিল ২০২৫",
+      "dateEn": "01 Apr 2025",
+      "kicker": "আত্মপ্রকাশ",
+      "title": "বগুড়া ডিবেটিং সোসাইটির যাত্রা শুরু",
+      "titleEn": "Bogura Debating Society is founded",
+      "body": "বগুড়া জেলার প্রথম পেশাদার ও একমাত্র জেলাভিত্তিক কেন্দ্রীয় বিতর্ক সংগঠন হিসেবে আনুষ্ঠানিক ঘোষণা। প্রতিষ্ঠাকালীন বার্তা — \"ভাষাকে করো অস্ত্র, যুক্তিকে করো শাণিত।\"",
+      "bodyEn": "Announced as the first professional, district-wide central debating organisation in Bogura, under the founding message “Make language your weapon, sharpen it with reason.”",
+      "star": true
+    },
+    {
+      "date": "জুলাই ২০২৫",
+      "dateEn": "Jul 2025",
+      "kicker": "প্রথম প্রতিযোগিতা",
+      "title": "১ম BDS একক বক্তৃতা প্রতিযোগিতা",
+      "titleEn": "1st BDS Solo Speech Competition",
+      "body": "জুলাই বিপ্লবের স্মরণে সম্পূর্ণ অনলাইন আয়োজন — ১৩০+ অংশগ্রহণকারী, দুইটি ক্যাটাগরি, আট সদস্যের বিচারক পরিষদ।",
+      "bodyEn": "A fully online competition in remembrance of the July uprising — 130+ entrants, two categories, an eight-member panel.",
+      "href": "/events/solo-speech-1"
+    },
+    {
+      "date": "১৫ আগস্ট ২০২৫",
+      "dateEn": "15 Aug 2025",
+      "kicker": "প্রথম অফলাইন",
+      "title": "Beyond Words: The 1st Chapter",
+      "titleEn": "Beyond Words: The 1st Chapter",
+      "body": "বনানী হাউসে সীমিত ৫০ আসনের আয়োজন — কর্মশালা ও সনাতনী শো ডিবেট। NDF BD-র অতিথি ও Bogura Zilla School Debate Club পার্টনার হিসেবে।",
+      "bodyEn": "A fifty-seat event at Banani House — a workshop plus a traditional show debate, with NDF BD guests and Bogura Zilla School Debate Club as partner.",
+      "href": "/events/beyond-words-1",
+      "star": true
+    },
+    {
+      "date": "সেপ্টেম্বর ২০২৫",
+      "dateEn": "Sep 2025",
+      "kicker": "অনলাইন কর্মশালা",
+      "title": "Traditional Debate Mastery",
+      "titleEn": "Traditional Debate Mastery",
+      "body": "দুই রাতের নিবিড় কর্মশালা, মেন্টর আরহাম মুসফিক।",
+      "bodyEn": "A two-night intensive mentored by Arham Musfique."
+    },
+    {
+      "date": "নভেম্বর ২০২৫",
+      "dateEn": "Nov 2025",
+      "kicker": "অভ্যন্তরীণ প্রতিযোগিতা",
+      "title": "BDS Intra Debate Championship",
+      "titleEn": "BDS Intra Debate Championship",
+      "body": "মাসিক সিরিজের নভেম্বর সংস্করণ — বিজয়ী Tasnim Tanha, Sadika Tasnim ও Israt Jahan Ive।",
+      "bodyEn": "The November edition of the monthly series — won by Tasnim Tanha, Sadika Tasnim and Israt Jahan Ive.",
+      "href": "/events/intra-championship-nov-2025"
+    },
+    {
+      "date": "১১ নভেম্বর ২০২৫",
+      "dateEn": "11 Nov 2025",
+      "kicker": "সৌজন্য সাক্ষাৎ",
+      "title": "বেলকুচি বিতর্ক সংসদ BDS অফিসে",
+      "titleEn": "Belkuchi Debate Parliament visits the BDS office",
+      "body": "পারস্পরিক সহযোগিতা ও জাতীয় পর্যায়ে অংশগ্রহণ নিয়ে আলোচনা, সৌজন্য স্মারক হস্তান্তর।",
+      "bodyEn": "Talks on mutual cooperation and national-level participation, with an exchange of mementos."
+    },
+    {
+      "date": "২৭ নভেম্বর ২০২৫",
+      "dateEn": "27 Nov 2025",
+      "kicker": "Campus Connect",
+      "title": "সরকারি আজিজুল হক কলেজে ৩০০+ শিক্ষার্থী",
+      "titleEn": "300+ students at Govt. Azizul Haque College",
+      "body": "AHC উচ্চমাধ্যমিক ডিবেট ক্লাবের সাথে যৌথ কর্মশালা — তিনজন মেন্টর, BDS-এর সর্বোচ্চ অংশগ্রহণ।",
+      "bodyEn": "A joint workshop with the AHC Higher Secondary Debate Club — three mentors and the largest BDS audience to date.",
+      "href": "/campus-connect",
+      "star": true
+    },
+    {
+      "date": "২৮ নভেম্বর ২০২৫",
+      "dateEn": "28 Nov 2025",
+      "kicker": "নতুন ফরম্যাট",
+      "title": "BDS-এর ১ম অফলাইন সংসদীয় বিতর্ক",
+      "titleEn": "First offline parliamentary debate",
+      "body": "Improvement Session-এর পাশাপাশি সংসদীয় ফরম্যাটে প্রথম মাঠপর্যায়ের আয়োজন।",
+      "bodyEn": "Alongside an improvement session, the first in-person parliamentary-format debate."
+    },
+    {
+      "date": "০৮ ডিসেম্বর ২০২৫",
+      "dateEn": "08 Dec 2025",
+      "kicker": "উপজেলায় প্রথম",
+      "title": "দুপচাঁচিয়া সরকারি পাইলট মডেল উচ্চ বিদ্যালয়",
+      "titleEn": "Dupchanchia Govt. Pilot Model High School",
+      "body": "শহরের বাইরে প্রথম কর্মশালা, প্রায় ১৫০ জন শিক্ষার্থী।",
+      "bodyEn": "The first workshop beyond the city, with roughly 150 students.",
+      "href": "/campus-connect",
+      "star": true
+    },
+    {
+      "date": "১৬ ডিসেম্বর ২০২৫",
+      "dateEn": "16 Dec 2025",
+      "kicker": "বিজয় দিবস",
+      "title": "বারোয়ারি বিতর্ক প্রতিযোগিতা",
+      "titleEn": "Victory Day Barwari Debate",
+      "body": "বাছাই পর্বে ৩৫ জন থেকে ফাইনালে ১৬ জন — পক্ষ-বিপক্ষের গণ্ডি পেরিয়ে মুক্ত মত প্রকাশের আয়োজন।",
+      "bodyEn": "Thirty-five speakers narrowed to sixteen in an open format beyond for-and-against.",
+      "href": "/events/bijoy-dibosh-barwari"
+    },
+    {
+      "date": "০২ জানুয়ারি ২০২৬",
+      "dateEn": "02 Jan 2026",
+      "kicker": "যৌথ আয়োজন",
+      "title": "তরুণ কণ্ঠ বিতর্ক ও কুইজ ২০২৬",
+      "titleEn": "Torun Kontho Debate & Quiz 2026",
+      "body": "নভোরো বাংলাদেশ-এর সাথে — কৃত্রিম বুদ্ধিমত্তা নিয়ে কুইজ ও সংসদীয় বিতর্ক, তিনটি বয়স-গ্রুপে।",
+      "bodyEn": "With Nobhoro Bangladesh — a quiz and parliamentary debate on artificial intelligence across three age groups.",
+      "href": "/events/torun-kontho-2026"
+    },
+    {
+      "date": "২৬ জানুয়ারি ২০২৬",
+      "dateEn": "26 Jan 2026",
+      "kicker": "আমন্ত্রণ",
+      "title": "RUMUNA — MUN Literacy Workshop",
+      "titleEn": "RUMUNA — MUN Literacy Workshop",
+      "body": "রাজশাহী বিশ্ববিদ্যালয় MUN অ্যাসোসিয়েশনের বিশেষ আমন্ত্রণে বগুড়া জিলা স্কুল অডিটোরিয়ামে অংশগ্রহণ।",
+      "bodyEn": "Attended at Bogura Zilla School auditorium on special invitation from the RU Model United Nations Association."
+    },
+    {
+      "date": "১৭–১৮ ফেব্রুয়ারি ২০২৬",
+      "dateEn": "17–18 Feb 2026",
+      "kicker": "সম্প্রসারণ",
+      "title": "মহাস্থান ও ভান্ডারী বালিকা বিদ্যালয়",
+      "titleEn": "Mahasthan and Bhandari Girls’ High School",
+      "body": "শিবগঞ্জ অঞ্চলে দুইটি সেশন, এবং ভান্ডারী বালিকা উচ্চ বিদ্যালয়ের সাথে দীর্ঘমেয়াদী কোলাবোরেশন শুরু।",
+      "bodyEn": "Two sessions in the Shibganj area, plus the start of a long-term collaboration with Bhandari Girls’ High School.",
+      "href": "/campus-connect"
+    },
+    {
+      "date": "১০ এপ্রিল ২০২৬",
+      "dateEn": "10 Apr 2026",
+      "kicker": "সবচেয়ে বড় আয়োজন",
+      "title": "তর্ক তরঙ্গ ২৬",
+      "titleEn": "Tarko Toronggo 26",
+      "body": "তর্জনী-র সাথে যৌথভাবে চার কলেজ দলের সনাতনী প্রতিযোগিতা। চ্যাম্পিয়ন বগুড়া ক্যান্টনমেন্ট পাবলিক স্কুল ও কলেজ; Debater of the Tournament মার্জিয়া আকতার।",
+      "bodyEn": "A four-team traditional tournament co-hosted with Tarjani. Champions: Bogura Cantonment Public School & College; Debater of the Tournament: Marzia Akter.",
+      "href": "/events/tarko-toronggo-26",
+      "star": true
+    },
+    {
+      "date": "মে–জুন ২০২৬",
+      "dateEn": "May–Jun 2026",
+      "kicker": "সাংগঠনিক",
+      "title": "পুনর্গঠন ও অন্তর্বর্তীকালীন কমিটি",
+      "titleEn": "Restructuring and an interim committee",
+      "body": "প্রথম কার্যনির্বাহী কমিটির মেয়াদ সমাপ্ত হয় এবং পাঁচ সদস্যের অন্তর্বর্তীকালীন আহ্বায়ক ও উপদেষ্টা কমিটি গঠিত হয়।",
+      "bodyEn": "The first executive committee completed its term and a five-member interim convening and advisory committee was formed."
+    },
+    {
+      "date": "জুন ২০২৬",
+      "dateEn": "Jun 2026",
+      "kicker": "অনলাইন সেশন",
+      "title": "Debate: What, Why, How · Script Writing & Prep Time",
+      "titleEn": "Debate: What, Why, How · Script Writing & Prep Time",
+      "body": "অতিথি Md. Rishad Nur (BRUDF) এবং স্পিকার মার্জিয়া আক্তারের দুইটি সেশন; সাথে \"Argentina vs Brazil\" রম্য বিতর্ক।",
+      "bodyEn": "Two sessions with guest Md. Rishad Nur (BRUDF) and speaker Marzia Akter, plus an “Argentina vs Brazil” humorous debate."
+    },
+    {
+      "date": "জুলাই ২০২৬",
+      "dateEn": "Jul 2026",
+      "kicker": "নেতৃত্ব",
+      "title": "নতুন কার্যনির্বাহী নেতৃত্ব",
+      "titleEn": "New executive leadership",
+      "body": "কার্যনির্বাহী কমিটি ২০২৬–২৭-এ Mohammad Hasin Shahriyar ভারপ্রাপ্ত সভাপতির দায়িত্ব গ্রহণ করেন।",
+      "bodyEn": "Mohammad Hasin Shahriyar took charge as acting president of the 2026–27 executive committee."
+    },
+    {
+      "date": "২১–২৩ জুলাই ২০২৬",
+      "dateEn": "21–23 Jul 2026",
+      "kicker": "নতুন ক্লাব",
+      "title": "গাবতলী ও ইয়াকুবিয়ায় কর্মশালা",
+      "titleEn": "Workshops in Gabtali and Yakubia",
+      "body": "গাবতলী পাইলট উচ্চ বিদ্যালয়ে ৮০+ শিক্ষার্থী; ইয়াকুবিয়া বালিকা উচ্চ বিদ্যালয়ে ৫০+ এবং সেখানকার বিতর্ক ক্লাব পুনরায় উজ্জীবিত।",
+      "bodyEn": "80+ students at Gabtali Pilot High School; 50+ at Yakubia Girls’ High School, where the debate club was revived.",
+      "href": "/campus-connect"
+    },
+    {
+      "date": "আগস্ট ২০২৬",
+      "dateEn": "Aug 2026",
+      "kicker": "বিচারকের দায়িত্ব",
+      "title": "কালচারাল ফেস্ট ২০২৬",
+      "titleEn": "Cultural Fest 2026",
+      "body": "বগুড়া জিলা স্কুল কালচারাল ক্লাবের ৫৫০+ শিক্ষার্থীর আয়োজনে BDS-এর তিনজন বিচারক দায়িত্ব পালন করেন।",
+      "bodyEn": "Three BDS adjudicators judged an event of 550+ students hosted by the Bogura Zilla School Cultural Club."
+    },
+    {
+      "date": "১৫ আগস্ট ২০২৬",
+      "dateEn": "15 Aug 2026",
+      "kicker": "ধারাবাহিকতা",
+      "title": "১৯তম অনুশীলনী বিতর্ক",
+      "titleEn": "19th practice debate",
+      "body": "সংসদীয় ফরম্যাটে — \"জুলাই পরবর্তী বাংলাদেশের অর্থনৈতিক স্থিতিশীলতার মুখ্য বাধা হলো দুর্নীতি\"। শ্রেষ্ঠ বক্তা ফাইজা হাসান।",
+      "bodyEn": "A parliamentary session on corruption as the chief obstacle to post-July economic stability. Best speaker: Faiza Hasan.",
+      "href": "/practice-debates"
+    }
+  ],
+  "partners": [
+    {
+      "name": "ন্যাশনাল ডিবেট ফেডারেশন বাংলাদেশ (NDF BD)",
+      "relation": "অতিথি ও উপদেষ্টা পর্যায়ে সংযোগ",
+      "relationEn": "Connected at guest and advisory level",
+      "kind": "org"
+    },
+    {
+      "name": "Debaters Community Of Bangladesh (DCBD)",
+      "relation": "সদস্যদের দ্বৈত পদ-সংযোগ",
+      "relationEn": "Shared membership links",
+      "kind": "org"
+    },
+    {
+      "name": "তর্জনী",
+      "relation": "\"তর্ক তরঙ্গ ২৬\"-এর যৌথ আয়োজক",
+      "relationEn": "Co-host of Tarko Toronggo 26",
+      "kind": "org"
+    },
+    {
+      "name": "নভোরো বাংলাদেশ",
+      "relation": "\"তরুণ কণ্ঠ ২০২৬\"-এর যৌথ আয়োজক",
+      "relationEn": "Co-host of Torun Kontho 2026",
+      "kind": "org"
+    },
+    {
+      "name": "Bogura Zilla School Debate Club",
+      "relation": "Beyond Words-এর স্ট্র্যাটেজিক পার্টনার",
+      "relationEn": "Strategic partner for Beyond Words",
+      "kind": "institution"
+    },
+    {
+      "name": "বেলকুচি বিতর্ক সংসদ",
+      "relation": "সৌজন্য সাক্ষাৎ ও ভবিষ্যৎ সহযোগিতা",
+      "relationEn": "Courtesy visit and future cooperation",
+      "kind": "org"
+    },
+    {
+      "name": "RUMUNA — রাবি MUN অ্যাসোসিয়েশন",
+      "relation": "MUN Literacy Workshop-এ আমন্ত্রণ",
+      "relationEn": "Invited BDS to the MUN Literacy Workshop",
+      "kind": "org"
+    },
+    {
+      "name": "সরকারি আজিজুল হক কলেজ উচ্চমাধ্যমিক ডিবেট ক্লাব",
+      "relation": "যৌথ কর্মশালা — ৩০০+ শিক্ষার্থী",
+      "relationEn": "Joint workshop for 300+ students",
+      "kind": "institution"
+    },
+    {
+      "name": "বগুড়া জিলা স্কুল কালচারাল ক্লাব",
+      "relation": "কালচারাল ফেস্ট ২০২৬-এ বিচারক সরবরাহ",
+      "relationEn": "BDS supplied adjudicators for Cultural Fest 2026",
+      "kind": "institution"
+    },
+    {
+      "name": "স্বরাষ্ট্র মন্ত্রণালয় ও মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তর",
+      "relation": "মাদকবিরোধী বিতর্ক প্রতিযোগিতা-২০২৬-এ সহযোগিতায় কাজ",
+      "relationEn": "Worked in cooperation on the 2026 anti-narcotics debate competition",
+      "kind": "authority"
+    },
+    {
+      "name": "দুর্নীতি দমন কমিশন (দুদক)",
+      "relation": "বিতর্ক প্রতিযোগিতা ২০২৬-এর প্রস্তুতিতে সহযোগিতায় কাজ",
+      "relationEn": "Worked in cooperation on preparation for the 2026 debate competition",
+      "kind": "authority"
+    },
+    {
+      "name": "Jim’s English",
+      "relation": "ভেন্যু স্পন্সর — Beyond Words",
+      "relationEn": "Venue sponsor — Beyond Words",
+      "kind": "sponsor"
+    },
+    {
+      "name": "Home Of Chemistry By Zahangir Sir",
+      "relation": "ভেন্যু পার্টনার — তর্ক তরঙ্গ ২৬",
+      "relationEn": "Venue partner — Tarko Toronggo 26",
+      "kind": "sponsor"
+    },
+    {
+      "name": "চয়ন প্রকাশন",
+      "relation": "বই স্পন্সর — তর্ক তরঙ্গ ২৬",
+      "relationEn": "Book sponsor — Tarko Toronggo 26",
+      "kind": "sponsor"
+    },
+    {
+      "name": "SAS Fragrance",
+      "relation": "পারফিউম স্পন্সর — Beyond Words",
+      "relationEn": "Fragrance sponsor — Beyond Words",
+      "kind": "sponsor"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "কীভাবে সদস্য হবো?",
+      "keywords": [
+        "সদস্য",
+        "join",
+        "যুক্ত",
+        "ভর্তি",
+        "member"
+      ],
+      "a": "বছরে কয়েকবার রিক্রুটমেন্ট খোলে — সাধারণ সদস্য, Fresher’s (\"Join The Legacy\") এবং Sub Executive (\"Join The Team\")। \"যুক্ত হও\" পাতা থেকে ফর্ম পূরণ করো, খোলা থাকলে সেখানেই দেখতে পাবে।"
+    },
+    {
+      "q": "সদস্য ফি কত?",
+      "keywords": [
+        "ফি",
+        "টাকা",
+        "খরচ",
+        "fee",
+        "cost"
+      ],
+      "a": "BDS-এর অনুশীলনী বিতর্ক, কর্মশালা এবং Intra Championship সদস্যদের জন্য বিনামূল্যে। কিছু বাইরের যৌথ আয়োজনে সামান্য রেজিস্ট্রেশন ফি থাকতে পারে (যেমন তরুণ কণ্ঠ ২০২৬-এ ২০ টাকা)।"
+    },
+    {
+      "q": "আগে বিতর্ক না করলে হবে?",
+      "keywords": [
+        "নতুন",
+        "অভিজ্ঞতা",
+        "পারি না",
+        "beginner",
+        "new"
+      ],
+      "a": "হবে। আমাদের প্রতিটি কর্মশালা \"বিতর্কের হাতেখড়ি\" দিয়ে শুরু হয়। ১৭টির বেশি প্রতিষ্ঠানে আমরা একেবারে নতুনদের নিয়েই কাজ করেছি।"
+    },
+    {
+      "q": "অনুশীলনী বিতর্ক কবে হয়?",
+      "keywords": [
+        "অনুশীলনী",
+        "practice",
+        "কবে",
+        "সময়",
+        "schedule"
+      ],
+      "a": "সপ্তাহে ৩–৪টি প্র্যাকটিস ডিবেট হয়। এ পর্যন্ত ১৯টি আনুষ্ঠানিক অনুশীলনী সেশন সম্পন্ন হয়েছে — সবগুলোর রেকর্ড \"অনুশীলনী বিতর্ক\" পাতায় আছে।"
+    },
+    {
+      "q": "আমার স্কুলে কর্মশালা চাই",
+      "keywords": [
+        "কর্মশালা",
+        "workshop",
+        "স্কুল",
+        "কলেজ",
+        "campus"
+      ],
+      "a": "Campus Connect পাতায় অনুরোধ ফর্ম আছে। বগুড়া শহর ছাড়াও দুপচাঁচিয়া, গাবতলী ও শিবগঞ্জে আমরা কর্মশালা করেছি।"
+    },
+    {
+      "q": "BDS-এর অফিস কোথায়?",
+      "keywords": [
+        "অফিস",
+        "ঠিকানা",
+        "কোথায়",
+        "address",
+        "office"
+      ],
+      "a": "মোস্তাফাবিয়া প্রাথমিক বিদ্যালয় সংলগ্ন, উপশহর, বগুড়া। ঠিকানা: R9WG+8GW, রোমেনা আফাজ রোড, বগুড়া–৫৮০০।"
+    },
+    {
+      "q": "কোন কোন ফরম্যাটে বিতর্ক হয়?",
+      "keywords": [
+        "ফরম্যাট",
+        "ধরন",
+        "সনাতনী",
+        "সংসদীয়",
+        "বারোয়ারি",
+        "format"
+      ],
+      "a": "সনাতনী, সংসদীয়, বারোয়ারি, রম্য, একক বক্তৃতা এবং Asian/British Parliamentary — ছয়টি ফরম্যাটেই আমরা কাজ করি।"
+    },
+    {
+      "q": "পত্রিকায় লেখা পাঠাবো কীভাবে?",
+      "keywords": [
+        "পত্রিকা",
+        "লেখা",
+        "magazine",
+        "গল্প",
+        "কবিতা"
+      ],
+      "a": "BDS মাসিক পত্রিকায় গল্প, প্রবন্ধ, কবিতা, চিত্রাঙ্কন ও ছবি নেওয়া হয়। যোগাযোগ পাতার ইমেইলে পাঠাতে পারো।"
+    }
+  ]
+}

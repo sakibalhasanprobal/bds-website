@@ -1,0 +1,482 @@
+{
+  "events": [
+    {
+      "slug": "tarko-toronggo-26",
+      "title": "তর্ক তরঙ্গ ২৬",
+      "titleEn": "Tarko Toronggo 26",
+      "date": "১০ এপ্রিল ২০২৬",
+      "dateEn": "10 April 2026",
+      "sortKey": "2026-04-10",
+      "kicker": "BDS-এর সবচেয়ে বড় প্রতিযোগিতা",
+      "kickerEn": "The largest BDS tournament so far",
+      "tag": "tag-shonatoni",
+      "tagLabel": "সনাতনী",
+      "featured": true,
+      "summary": "বগুড়া ডিবেটিং সোসাইটি ও তর্জনী-র যৌথ আয়োজনে চারটি আমন্ত্রিত কলেজ দলের সনাতনী বিতর্ক প্রতিযোগিতা — পাঁচ সদস্যের বিচারকমণ্ডলী এবং NDF BD-এর অতিথিদের উপস্থিতিতে।",
+      "summaryEn": "A traditional-format tournament co-hosted with Tarjani, featuring four invited college teams, a five-member adjudication panel and guests from NDF BD.",
+      "details": [
+        {
+          "label": "আয়োজনে",
+          "value": "বগুড়া ডিবেটিং সোসাইটি + তর্জনী"
+        },
+        {
+          "label": "স্থান",
+          "value": "বনানী হাউজ, জলেশ্বরীতলা, বগুড়া"
+        },
+        {
+          "label": "সময়",
+          "value": "বিকাল ৩টা – ৬টা"
+        },
+        {
+          "label": "ধরন",
+          "value": "সনাতনী বিতর্ক · কলেজ ক্যাটাগরি · ৪টি আমন্ত্রিত দল"
+        },
+        {
+          "label": "ভেন্যু পার্টনার",
+          "value": "Home Of Chemistry By Zahangir Sir"
+        },
+        {
+          "label": "বই স্পন্সর",
+          "value": "চয়ন প্রকাশন"
+        },
+        {
+          "label": "প্রধান অতিথি",
+          "value": "মোঃ আবু আওয়াল সরদার — সহ-সভাপতি (প্রকাশনা), NDF BD"
+        },
+        {
+          "label": "বিশেষ অতিথি",
+          "value": "অরুপ রতন — যুগ্ম মহাসচিব, NDF BD"
+        },
+        {
+          "label": "সভাপতি",
+          "value": "মোঃ সাকিব আল হাসান প্রবাল"
+        },
+        {
+          "label": "মডারেটর",
+          "value": "মায়িশা হাসানা"
+        }
+      ],
+      "teams": [
+        {
+          "institution": "সরকারি আজিজুল হক কলেজ (AHC)",
+          "speakers": [
+            "সায়ূরী সুলতানা বর্ণ",
+            "শুআইব জামান",
+            "মোঃ মুহিত খান"
+          ]
+        },
+        {
+          "institution": "বগুড়া সরকারি কলেজ (BGC)",
+          "speakers": [
+            "নিয়ামুল হাসান স্বাধীন",
+            "রুমাইয়া বিনতে রাশীদ",
+            "মার্জিয়া আকতার"
+          ]
+        },
+        {
+          "institution": "সরকারি মুজিবর রহমান ভান্ডারী মহিলা কলেজ (GMRWC)",
+          "speakers": [
+            "আফরিন বিনতে নেহা",
+            "আফরা অন্তি",
+            "আতিয়া মালিহা"
+          ]
+        },
+        {
+          "institution": "বগুড়া ক্যান্টনমেন্ট পাবলিক স্কুল ও কলেজ (BCPSC)",
+          "speakers": [
+            "মাহফুজুর রহমান সিয়াম",
+            "অনন্তা আশফী সুবহা",
+            "আব্দুল্লাহ আল আরাফাত"
+          ]
+        }
+      ],
+      "adjudicators": [
+        "আহসান ইবনাত তুবা — স্যার সলিমুল্লাহ মেডিকেল কলেজ",
+        "তাসফিয়া জিন্নাত নাবিলা — প্রতিষ্ঠাতা ও সাবেক সভাপতি, AHC ডিবেটিং ক্লাব",
+        "সালমিন মোস্তারী তহুরা — সভাপতি, GMRWC ডিবেটিং ক্লাব",
+        "জারিন তাসনীম তুবা — শহীদ সোহরাওয়ার্দী মেডিকেল কলেজ ডিবেট ক্লাব",
+        "জারিন তাসনিম মিতু — রাজশাহী বিশ্ববিদ্যালয় ডিবেটিং ফোরাম"
+      ],
+      "motions": [
+        {
+          "label": "নক-আউট রাউন্ড",
+          "text": "পূর্ববর্তী প্রজন্মের লালন-পালনে ত্রুটি জেন-জি কে অসামাজিক করে তুলেছে।"
+        },
+        {
+          "label": "ফাইনাল",
+          "text": "বর্তমান প্রজন্ম বাঙালি সংস্কৃতিকে শুধুমাত্র পহেলা বৈশাখে লাল-সাদা শাড়ি এবং পাঞ্জাবিতে সীমাবদ্ধ করেছে।"
+        }
+      ],
+      "results": [
+        {
+          "label": "হাউস–১",
+          "value": "AHC বনাম GMRWC → বিজয়ী সরকারি আজিজুল হক কলেজ"
+        },
+        {
+          "label": "হাউস–২",
+          "value": "BCPSC বনাম BGC → বিজয়ী বগুড়া ক্যান্টনমেন্ট পাবলিক স্কুল ও কলেজ"
+        },
+        {
+          "label": "চ্যাম্পিয়ন",
+          "value": "বগুড়া ক্যান্টনমেন্ট পাবলিক স্কুল ও কলেজ"
+        },
+        {
+          "label": "Debater of the Tournament",
+          "value": "মার্জিয়া আকতার — বগুড়া সরকারি কলেজ"
+        }
+      ]
+    },
+    {
+      "slug": "beyond-words-1",
+      "title": "Beyond Words: The 1st Chapter",
+      "titleEn": "Beyond Words: The 1st Chapter",
+      "date": "১৫ আগস্ট ২০২৫",
+      "dateEn": "15 August 2025",
+      "sortKey": "2025-08-15",
+      "kicker": "BDS-এর প্রথম অফলাইন আয়োজন",
+      "kickerEn": "The first offline BDS event",
+      "tag": "tag-shonatoni",
+      "tagLabel": "কর্মশালা + শো ডিবেট",
+      "featured": true,
+      "summary": "পরিচয়পর্ব, বিতর্কের কর্মশালা এবং একটি সনাতনী শো ডিবেট — সীমিত ৫০ আসনের এই আয়োজন দিয়েই BDS মঞ্চে নামে।",
+      "summaryEn": "An introduction, a debate workshop and a traditional show debate — the fifty-seat event that brought BDS offline for the first time.",
+      "details": [
+        {
+          "label": "স্থান",
+          "value": "বনানী হাউস, জলেশ্বরীতলা, বগুড়া"
+        },
+        {
+          "label": "সময়",
+          "value": "দুপুর ৩টা – সন্ধ্যা ৬টা · সীমিত ৫০ আসন"
+        },
+        {
+          "label": "সেগমেন্ট",
+          "value": "পরিচয়পর্ব + কর্মশালা (বিতর্ক কী, কেন, কীভাবে + আধুনিক কৌশল) + শো ডিবেট"
+        },
+        {
+          "label": "প্রশিক্ষক",
+          "value": "জারিন তাসনিম মিতু — রাজশাহী বিশ্ববিদ্যালয়"
+        },
+        {
+          "label": "প্রধান অতিথি",
+          "value": "মোঃ আবু আওয়াল সরদার — Co-Chairman (Publication), NDF BD"
+        },
+        {
+          "label": "বিশেষ অতিথি",
+          "value": "আজিমুদ্দিন জিম — Director, Jim’s English (ভেন্যু স্পন্সর)"
+        },
+        {
+          "label": "স্ট্র্যাটেজিক পার্টনার",
+          "value": "Bogura Zilla School Debate Club (BZSDC)"
+        },
+        {
+          "label": "পারফিউম স্পন্সর",
+          "value": "SAS Fragrance"
+        }
+      ],
+      "motions": [
+        {
+          "label": "শো ডিবেট (সনাতনী)",
+          "text": "ভবিষ্যৎ বিবেচনায় বাংলাদেশ সরকারের ক্রিকেট হতে ফুটবলে বেশি বিনিয়োগ করা উচিত"
+        }
+      ],
+      "teams": [
+        {
+          "institution": "পক্ষ — APBN A",
+          "speakers": [
+            "Mubassira Mouri",
+            "Sham Unn Sharar",
+            "Maisha Hasan Dupur (TL)"
+          ]
+        },
+        {
+          "institution": "বিপক্ষ — BCPSC A",
+          "speakers": [
+            "Arman Mashrafi",
+            "Al Yeasa Rahman",
+            "M M Rubayet (TL)"
+          ]
+        }
+      ],
+      "results": [
+        {
+          "label": "মডারেটর",
+          "value": "Mohammad Ali — VP (D&W), BDS"
+        },
+        {
+          "label": "বিচারক",
+          "value": "Zarin Tasnim Mitu — RU"
+        },
+        {
+          "label": "বিজয়ী",
+          "value": "বিপক্ষ (BCPSC A)"
+        },
+        {
+          "label": "শ্রেষ্ঠ বক্তা",
+          "value": "M M Rubayet"
+        }
+      ]
+    },
+    {
+      "slug": "solo-speech-1",
+      "title": "১ম BDS একক বক্তৃতা প্রতিযোগিতা",
+      "titleEn": "1st BDS Solo Speech Competition",
+      "date": "জুলাই ২০২৫",
+      "dateEn": "July 2025",
+      "sortKey": "2025-07-20",
+      "kicker": "জুলাই বিপ্লবের স্মরণে · অনলাইন",
+      "kickerEn": "In remembrance of the July uprising · online",
+      "tag": "tag-shol",
+      "tagLabel": "একক বক্তৃতা",
+      "featured": true,
+      "summary": "BDS-এর প্রথম প্রতিযোগিতা — সম্পূর্ণ অনলাইন, বিনামূল্যে, ১৩০+ অংশগ্রহণকারী এবং আট সদস্যের বিচারক পরিষদ নিয়ে।",
+      "summaryEn": "The first BDS competition — fully online, free to enter, with 130+ entrants and an eight-member adjudication panel.",
+      "details": [
+        {
+          "label": "ধরন",
+          "value": "একক বক্তৃতা (অনলাইন) · ৩–৫ মিনিট · বাংলা"
+        },
+        {
+          "label": "ক্যাটাগরি",
+          "value": "স্কুল (৪র্থ–১০ম) এবং কলেজ ও বিশ্ববিদ্যালয় (একাদশ–স্নাতকোত্তর)"
+        },
+        {
+          "label": "রেজিস্ট্রেশন",
+          "value": "বিনামূল্যে · ২০–৩০ জুলাই ২০২৫"
+        },
+        {
+          "label": "নিয়ম",
+          "value": "নো-এডিটিং, নো-মিউজিক"
+        },
+        {
+          "label": "পুরস্কার",
+          "value": "ক্রেস্ট + সনদ; প্রত্যেক অংশগ্রহণকারীর অনলাইন সনদ"
+        },
+        {
+          "label": "বিভাগ",
+          "value": "বিচারকের পছন্দ (২ জন) + জনগণের পছন্দ (২ জন)"
+        }
+      ],
+      "motions": [
+        {
+          "label": "বিষয়",
+          "text": "শব্দ থেকে বিদ্রোহ: রাজনীতির রঙ্গমঞ্চ"
+        }
+      ],
+      "results": [
+        {
+          "label": "মোট অংশগ্রহণকারী",
+          "value": "১৩০+"
+        },
+        {
+          "label": "স্কুল ক্যাটাগরি বিজয়ী",
+          "value": "Jerin Hasan Zinia"
+        },
+        {
+          "label": "কলেজ ও বিশ্ববিদ্যালয় বিজয়ী",
+          "value": "Zarin Tasnim Mitu"
+        }
+      ]
+    },
+    {
+      "slug": "bijoy-dibosh-barwari",
+      "title": "বিজয় দিবস বারোয়ারি বিতর্ক",
+      "titleEn": "Victory Day Barwari Debate",
+      "date": "১৬ ডিসেম্বর ২০২৫",
+      "dateEn": "16 December 2025",
+      "sortKey": "2025-12-16",
+      "kicker": "পক্ষ-বিপক্ষের গণ্ডি পেরিয়ে",
+      "kickerEn": "Beyond for-and-against",
+      "tag": "tag-baroari",
+      "tagLabel": "বারোয়ারি",
+      "featured": true,
+      "summary": "বাছাই পর্বে ৩৫ জন, ফাইনালে ১৬ জন — বিজয় দিবস উপলক্ষে মুক্ত মত প্রকাশের বারোয়ারি আয়োজন।",
+      "summaryEn": "Thirty-five speakers in the prelims, sixteen in the final — an open-format event marking Victory Day.",
+      "details": [
+        {
+          "label": "ফরম্যাট",
+          "value": "বারোয়ারি — পক্ষ-বিপক্ষের গণ্ডি পেরিয়ে মুক্ত মত প্রকাশ"
+        },
+        {
+          "label": "বাছাই পর্ব",
+          "value": "৩৫ জন অংশগ্রহণকারী"
+        },
+        {
+          "label": "ফাইনাল",
+          "value": "১৬ জন"
+        },
+        {
+          "label": "বিচারক",
+          "value": "তাসফিয়া জিন্নাত নাবিলা — সাধারণ সম্পাদক"
+        }
+      ],
+      "motions": [
+        {
+          "label": "বাছাই পর্ব",
+          "text": "মুক্তির মন্দির সোপানতলে..."
+        },
+        {
+          "label": "ফাইনাল",
+          "text": "সকল বিভেদ ভুলে হৃদয়টাকে খুলে"
+        }
+      ]
+    },
+    {
+      "slug": "torun-kontho-2026",
+      "title": "তরুণ কণ্ঠ কুইজ ও বিতর্ক প্রতিযোগিতা ২০২৬",
+      "titleEn": "Torun Kontho Quiz & Debate 2026",
+      "date": "০২ জানুয়ারি ২০২৬",
+      "dateEn": "02 January 2026",
+      "sortKey": "2026-01-02",
+      "kicker": "নভোরো বাংলাদেশ-এর সাথে যৌথ আয়োজন",
+      "kickerEn": "Co-hosted with Nobhoro Bangladesh",
+      "tag": "tag-shongshodio",
+      "tagLabel": "সংসদীয় + কুইজ",
+      "summary": "কৃত্রিম বুদ্ধিমত্তা নিয়ে কুইজ ও সংসদীয় বিতর্ক — ষষ্ঠ শ্রেণি থেকে দ্বাদশ পর্যন্ত তিনটি গ্রুপে।",
+      "summaryEn": "A quiz and parliamentary debate on artificial intelligence, across three groups from class six to twelve.",
+      "details": [
+        {
+          "label": "আয়োজনে",
+          "value": "নভোরো বাংলাদেশ + বগুড়া ডিবেটিং সোসাইটি"
+        },
+        {
+          "label": "স্থান",
+          "value": "বনানী হাউজ, নূর মসজিদ লেন, জলেশ্বরীতলা, বগুড়া"
+        },
+        {
+          "label": "সময়",
+          "value": "বিকাল ৩টা – ৫টা"
+        },
+        {
+          "label": "কুইজের বিষয়",
+          "value": "আর্টিফিসিয়াল ইন্টেলিজেন্স (AI)"
+        },
+        {
+          "label": "ক্যাটাগরি",
+          "value": "গ্রুপ ক (৬ষ্ঠ–৮ম) · খ (৯ম–১০ম) · গ (একাদশ–দ্বাদশ)"
+        },
+        {
+          "label": "রেজিস্ট্রেশন ফি",
+          "value": "২০ টাকা"
+        },
+        {
+          "label": "পুরস্কার",
+          "value": "প্রতি ক্যাটাগরিতে সেরা ২ জন (মোট ৬ জন)"
+        }
+      ],
+      "motions": [
+        {
+          "label": "বিতর্কের বিষয়",
+          "text": "এই সংসদ, আর্টিফিসিয়াল ইন্টেলিজেন্সকে নিষিদ্ধ করবে"
+        }
+      ]
+    },
+    {
+      "slug": "intra-championship-nov-2025",
+      "title": "BDS Intra Debate Championship",
+      "titleEn": "BDS Intra Debate Championship",
+      "date": "নভেম্বর ২০২৫",
+      "dateEn": "November 2025",
+      "sortKey": "2025-11-10",
+      "kicker": "শুধু BDS সদস্যদের জন্য",
+      "kickerEn": "For BDS members only",
+      "tag": "tag-shonatoni",
+      "tagLabel": "অভ্যন্তরীণ",
+      "summary": "মাসিক সিরিজের নভেম্বর সংস্করণ — রেজিস্ট্রেশন বিনামূল্যে, সবার জন্য এক্সক্লুসিভ সার্টিফিকেট এবং শীর্ষ তিনজনের পুরস্কার।",
+      "summaryEn": "The November edition of the monthly series — free entry, certificates for everyone and prizes for the top three.",
+      "details": [
+        {
+          "label": "যোগ্যতা",
+          "value": "কেবল BDS অফিসিয়াল সদস্য"
+        },
+        {
+          "label": "রেজিস্ট্রেশন ফি",
+          "value": "০ টাকা"
+        },
+        {
+          "label": "পুরস্কার",
+          "value": "Top 3 + সবার জন্য এক্সক্লুসিভ সার্টিফিকেট"
+        }
+      ],
+      "results": [
+        {
+          "label": "১ম স্থান",
+          "value": "Tasnim Tanha"
+        },
+        {
+          "label": "২য় স্থান",
+          "value": "Sadika Tasnim"
+        },
+        {
+          "label": "৩য় স্থান",
+          "value": "Israt Jahan Ive"
+        }
+      ]
+    },
+    {
+      "slug": "basics-of-debate",
+      "title": "Basics of Debate — কর্মশালা সিরিজ",
+      "titleEn": "Basics of Debate — Workshop Series",
+      "date": "২১ নভেম্বর ২০২৫",
+      "dateEn": "21 November 2025",
+      "sortKey": "2025-11-21",
+      "kicker": "সবার জন্য উন্মুক্ত কর্মশালা",
+      "kickerEn": "An open workshop for everyone",
+      "tag": "tag-shonatoni",
+      "tagLabel": "কর্মশালা",
+      "featured": true,
+      "summary": "বগুড়ার বিভিন্ন কলেজের প্রায় ৫০ জন শিক্ষার্থী নিয়ে বনানী হাউসে বিতর্কের হাতেখড়ি — সম্পূর্ণ বিনামূল্যে, সবাইকে সনদপত্র।",
+      "summaryEn": "Around fifty students from colleges across Bogura learned the basics of debate at Banani House — free of charge, with a certificate for everyone.",
+      "details": [
+        {
+          "label": "স্থান",
+          "value": "বনানী হাউস, জলেশ্বরীতলা, বগুড়া"
+        },
+        {
+          "label": "অংশগ্রহণ",
+          "value": "প্রায় ৫০ জন শিক্ষার্থী"
+        },
+        {
+          "label": "মেন্টর",
+          "value": "তাসফিয়া জিন্নাত নাবিলা — সাধারণ সম্পাদক"
+        },
+        {
+          "label": "রেজিস্ট্রেশন",
+          "value": "সম্পূর্ণ বিনামূল্যে"
+        },
+        {
+          "label": "সনদ",
+          "value": "সব অংশগ্রহণকারীকে সনদপত্র প্রদান"
+        },
+        {
+          "label": "সিরিজ",
+          "value": "Basics of Debate Workshop Series — ২য় কর্মশালা"
+        }
+      ]
+    },
+    {
+      "slug": "traditional-debate-mastery",
+      "title": "Traditional Debate Mastery",
+      "titleEn": "Traditional Debate Mastery",
+      "date": "২৬–২৭ সেপ্টেম্বর ২০২৫",
+      "dateEn": "26–27 September 2025",
+      "sortKey": "2025-09-26",
+      "kicker": "অনলাইন কর্মশালা",
+      "kickerEn": "Online workshop",
+      "tag": "tag-shonatoni",
+      "tagLabel": "কর্মশালা",
+      "summary": "দুই রাতের নিবিড় অনলাইন কর্মশালা — সনাতনী বিতর্কের কাঠামো, খণ্ডন ও উপস্থাপনা নিয়ে।",
+      "summaryEn": "A two-night intensive on the structure, rebuttal and delivery of traditional debate.",
+      "details": [
+        {
+          "label": "সময়",
+          "value": "রাত ৯:০০ – ১০:৩০ · Google Meet"
+        },
+        {
+          "label": "মেন্টর",
+          "value": "আরহাম মুসফিক"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+# ═══════════════════════════════════════════════════════════════
+#  BDS অ্যাডমিন প্যানেল — Decap CMS কনফিগারেশন
+#  এখানে সেভ করা প্রতিটি পরিবর্তন GitHub-এ কমিট হয়,
+#  আর Netlify ১–২ মিনিটে নতুন সাইট বিল্ড করে লাইভ করে দেয়।
+# ═══════════════════════════════════════════════════════════════
+
+backend:
+  name: github
+  repo: sakibalhasanprobal/bds-website
+  branch: main
+  base_url: https://api.netlify.com
+  commit_messages:
+    create: "অ্যাডমিন প্যানেল: {{collection}} — নতুন এন্ট্রি"
+    update: "অ্যাডমিন প্যানেল: {{collection}} — আপডেট"
+    delete: "অ্যাডমিন প্যানেল: {{collection}} — মুছে ফেলা"
+    uploadMedia: "অ্যাডমিন প্যানেল: ছবি আপলোড — {{path}}"
+    deleteMedia: "অ্যাডমিন প্যানেল: ছবি মুছে ফেলা — {{path}}"
+
+publish_mode: simple
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+site_url: /
+logo_url: /brand/mark.png
+
+collections:
+  # ───────────────────────── ব্লগ ─────────────────────────
+  - name: blog
+    label: "📝 ব্লগ"
+    label_singular: "ব্লগ পোস্ট"
+    folder: "content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{title}} — {{fields.date}}"
+    fields:
+      - { name: title, label: "শিরোনাম", widget: string }
+      - { name: date, label: "তারিখ (যেভাবে দেখাবে, যেমন ২১ আগস্ট ২০২৬)", widget: string }
+      - { name: cover, label: "কভার ছবি", widget: image, required: false }
+      - { name: excerpt, label: "সারসংক্ষেপ (তালিকায় দেখাবে)", widget: text }
+      - { name: published, label: "প্রকাশিত?", widget: boolean, default: true }
+      - { name: body, label: "মূল লেখা", widget: markdown }
+
+  # ─────────────────── সাইটের মূল তথ্য ───────────────────
+  - name: settings
+    label: "⚙️ সাইট তথ্য"
+    files:
+      - name: site
+        label: "সাইট তথ্য, সংখ্যা ও হিরো ছবি"
+        file: "src/content/data/site.json"
+        fields:
+          - name: site
+            label: "প্রতিষ্ঠানের তথ্য"
+            widget: object
+            fields:
+              - { name: nameBn, label: "নাম (বাংলা)", widget: string }
+              - { name: nameEn, label: "নাম (English)", widget: string }
+              - { name: short, label: "সংক্ষিপ্ত নাম", widget: string }
+              - { name: sloganBn, label: "স্লোগান (বাংলা)", widget: string }
+              - { name: sloganEn, label: "স্লোগান (English)", widget: string }
+              - { name: founded, label: "প্রতিষ্ঠা (বাংলা)", widget: string }
+              - { name: foundedEn, label: "প্রতিষ্ঠা (English)", widget: string }
+              - { name: foundedISO, label: "প্রতিষ্ঠা (ISO, যেমন 2025-04-01)", widget: string }
+              - { name: identityBn, label: "পরিচয় (বাংলা)", widget: text }
+              - { name: identityEn, label: "পরিচয় (English)", widget: text }
+              - { name: addressBn, label: "ঠিকানা (বাংলা)", widget: string }
+              - { name: addressEn, label: "ঠিকানা (English)", widget: string }
+              - { name: officeBn, label: "অফিস (বাংলা)", widget: string }
+              - { name: officeEn, label: "অফিস (English)", widget: string }
+              - { name: phone, label: "ফোন (দেখানোর জন্য)", widget: string }
+              - { name: phoneIntl, label: "ফোন (+৮৮০ ফরম্যাটে)", widget: string }
+              - { name: email, label: "ইমেইল", widget: string }
+              - { name: facebook, label: "Facebook লিংক", widget: string }
+              - { name: domain, label: "ওয়েবসাইট ঠিকানা (https সহ)", widget: string }
+              - { name: mapQuery, label: "Google Maps সার্চ", widget: string }
+          - name: purpose
+            label: "লক্ষ্য ও উদ্দেশ্য"
+            widget: object
+            fields:
+              - { name: bn, label: "বাংলা", widget: text }
+              - { name: en, label: "English", widget: text }
+          - name: hero
+            label: "হোমপেজের হিরো ছবি"
+            widget: object
+            fields:
+              - name: main
+                label: "মূল ছবি"
+                widget: object
+                fields:
+                  - { name: src, label: "ছবি", widget: image }
+                  - { name: label, label: "লেবেল (ছবি না থাকলে দেখাবে)", widget: string }
+              - name: thumbs
+                label: "hover করলে যে ৫টি ছবি ছিটকে বেরোয়"
+                widget: list
+                min: 5
+                max: 5
+                fields:
+                  - { name: src, label: "ছবি", widget: image }
+                  - { name: label, label: "লেবেল", widget: string }
+          - name: vision
+            label: "সংগঠনের ভাবনা (হোমপেজ)"
+            widget: object
+            fields:
+              - { name: photo, label: "ছবি", widget: image }
+              - { name: photoLabel, label: "ছবির লেবেল", widget: string }
+              - { name: quote, label: "উদ্ধৃতি (বাংলা)", widget: text }
+              - { name: quoteEn, label: "উদ্ধৃতি (English)", widget: text }
+          - name: heroStats
+            label: "হিরোর ৪টি সংখ্যা"
+            widget: list
+            fields:
+              - { name: value, label: "সংখ্যা (বাংলা, যেমন ১৯)", widget: string }
+              - { name: valueEn, label: "সংখ্যা (English)", widget: string }
+              - { name: bn, label: "লেবেল (বাংলা)", widget: string }
+              - { name: en, label: "লেবেল (English)", widget: string }
+              - { name: icon, label: "আইকন (gavel/school/mic/calendar-days/users)", widget: string }
+          - name: impactStats
+            label: "এক নজরে — ৫টি সংখ্যা"
+            widget: list
+            fields:
+              - { name: value, label: "সংখ্যা (বাংলা)", widget: string }
+              - { name: valueEn, label: "সংখ্যা (English)", widget: string }
+              - { name: bn, label: "লেবেল (বাংলা)", widget: string }
+              - { name: en, label: "লেবেল (English)", widget: string }
+              - { name: note, label: "ছোট নোট (বাংলা)", widget: string }
+              - { name: noteEn, label: "ছোট নোট (English)", widget: string }
+              - { name: icon, label: "আইকন (gavel/school/users/map-pin/scale)", widget: string }
+          - name: activities
+            label: "নিয়মিত কার্যক্রম"
+            widget: list
+            fields:
+              - { name: bn, label: "বাংলা", widget: string }
+              - { name: en, label: "English", widget: string }
+              - { name: icon, label: "আইকন (gavel/graduation-cap/trophy/landmark/send)", widget: string }
+          - name: memberBenefits
+            label: "সদস্য হলে যা পাবে"
+            widget: list
+            fields:
+              - { name: bn, label: "বাংলা", widget: string }
+              - { name: en, label: "English", widget: string }
+          - name: formats
+            label: "বিতর্কের ধরন"
+            widget: list
+            fields:
+              - { name: key, label: "কী (shonatoni/shongshodio/baroari/romyo/shol)", widget: string }
+              - { name: bn, label: "নাম (বাংলা)", widget: string }
+              - { name: en, label: "নাম (English)", widget: string }
+              - { name: tag, label: "ট্যাগ ক্লাস (tag-shonatoni ইত্যাদি)", widget: string }
+              - { name: descBn, label: "বিবরণ (বাংলা)", widget: text }
+              - { name: descEn, label: "বিবরণ (English)", widget: text }
+
+  # ─────────────────── আয়োজন ───────────────────
+  - name: events_file
+    label: "🏆 আয়োজন"
+    files:
+      - name: events
+        label: "সব আয়োজন"
+        file: "src/content/data/events.json"
+        fields:
+          - name: events
+            label: "আয়োজনের তালিকা"
+            widget: list
+            summary: "{{fields.title}} — {{fields.date}}"
+            fields:
+              - { name: slug, label: "slug (ইংরেজি, যেমন tarko-toronggo-27)", widget: string }
+              - { name: title, label: "নাম (বাংলা)", widget: string }
+              - { name: titleEn, label: "নাম (English)", widget: string }
+              - { name: date, label: "তারিখ (বাংলা)", widget: string }
+              - { name: dateEn, label: "তারিখ (English)", widget: string }
+              - { name: sortKey, label: "সাজানোর তারিখ (YYYY-MM-DD)", widget: string }
+              - { name: kicker, label: "উপশিরোনাম (বাংলা)", widget: string }
+              - { name: kickerEn, label: "উপশিরোনাম (English)", widget: string }
+              - name: tag
+                label: "ট্যাগ রং"
+                widget: select
+                options: [tag-shonatoni, tag-shongshodio, tag-baroari, tag-romyo, tag-shol]
+              - { name: tagLabel, label: "ট্যাগ লেখা", widget: string }
+              - { name: summary, label: "সারসংক্ষেপ (বাংলা)", widget: text }
+              - { name: summaryEn, label: "সারসংক্ষেপ (English)", widget: text }
+              - { name: image, label: "ছবি", widget: image, required: false }
+              - { name: featured, label: "হোমপেজে দেখাবে?", widget: boolean, required: false, default: false }
+              - name: details
+                label: "বিস্তারিত (লেবেল–মান)"
+                widget: list
+                fields:
+                  - { name: label, label: "লেবেল", widget: string }
+                  - { name: value, label: "মান", widget: string }
+              - name: motions
+                label: "বিতর্কের বিষয়"
+                widget: list
+                required: false
+                fields:
+                  - { name: label, label: "রাউন্ড", widget: string }
+                  - { name: text, label: "বিষয়", widget: text }
+              - name: results
+                label: "ফলাফল"
+                widget: list
+                required: false
+                fields:
+                  - { name: label, label: "লেবেল", widget: string }
+                  - { name: value, label: "মান", widget: string }
+              - name: teams
+                label: "অংশগ্রহণকারী দল"
+                widget: list
+                required: false
+                fields:
+                  - { name: institution, label: "প্রতিষ্ঠান", widget: string }
+                  - { name: speakers, label: "বক্তারা", widget: list }
+              - name: adjudicators
+                label: "বিচারকমণ্ডলী"
+                widget: list
+                required: false
+
+  # ─────────────── অনুশীলনী বিতর্ক ───────────────
+  - name: practice_file
+    label: "⚖️ অনুশীলনী বিতর্ক"
+    files:
+      - name: practice
+        label: "সেশন আর্কাইভ ও বিতার্কিক তালিকা"
+        file: "src/content/data/practice.json"
+        fields:
+          - name: sessions
+            label: "সেশনের তালিকা"
+            widget: list
+            summary: "{{fields.noBn}} — {{fields.motion}}"
+            fields:
+              - { name: no, label: "নং (সংখ্যা, যেমন 20)", widget: number, value_type: int }
+              - { name: noBn, label: "নং (বাংলা, যেমন ২০তম)", widget: string }
+              - name: format
+                label: "ধরন"
+                widget: select
+                options: ["সনাতনী", "সংসদীয়", "বারোয়ারি", "একক বক্তৃতা"]
+              - { name: motionId, label: "মোশন আইডি (ঐচ্ছিক, যেমন pd-20)", widget: string, required: false }
+              - { name: motion, label: "বিষয়", widget: text }
+              - { name: winner, label: "বিজয়ী (পক্ষ/বিপক্ষ/সরকারি দল/বিরোধী দল)", widget: string }
+              - { name: bestSpeaker, label: "শ্রেষ্ঠ বক্তা", widget: string }
+              - { name: adjudicator, label: "বিচারক", widget: string }
+              - { name: missing, label: "রেকর্ড অনুপস্থিত?", widget: boolean, required: false, default: false }
+          - name: activeDebaters
+            label: "সক্রিয় বিতার্কিকদের নাম"
+            widget: list
+
+  # ─────────────── মোশন ব্যাংক ───────────────
+  - name: motions_file
+    label: "💬 মোশন ব্যাংক"
+    files:
+      - name: motions
+        label: "সব মোশন"
+        file: "src/content/data/motions.json"
+        fields:
+          - name: motions
+            label: "মোশনের তালিকা"
+            widget: list
+            summary: "{{fields.text}}"
+            fields:
+              - { name: id, label: "আইডি (ইউনিক, যেমন pd-20)", widget: string }
+              - { name: text, label: "বিষয়", widget: text }
+              - name: format
+                label: "ধরন"
+                widget: select
+                options: ["সনাতনী", "সংসদীয়", "বারোয়ারি", "একক বক্তৃতা"]
+              - name: topic
+                label: "টপিক"
+                widget: select
+                options: ["শিক্ষা", "রাজনীতি", "প্রযুক্তি", "সমাজ", "সংস্কৃতি", "পরিবেশ", "ক্রীড়া", "অর্থনীতি", "গণমাধ্যম"]
+              - { name: usedIn, label: "কোথায় ব্যবহৃত (বাংলা)", widget: string }
+              - { name: usedInEn, label: "কোথায় ব্যবহৃত (English)", widget: string }
+              - { name: date, label: "তারিখ (ঐচ্ছিক)", widget: string, required: false }
+
+  # ─────────────── ক্যাম্পাস কানেক্ট ───────────────
+  - name: campus_file
+    label: "🏫 ক্যাম্পাস কানেক্ট"
+    files:
+      - name: campus
+        label: "প্রতিষ্ঠান তালিকা ও কর্মশালার কাঠামো"
+        file: "src/content/data/campus.json"
+        fields:
+          - name: stops
+            label: "প্রতিষ্ঠান তালিকা"
+            widget: list
+            summary: "{{fields.institution}} — {{fields.date}}"
+            fields:
+              - { name: date, label: "তারিখ", widget: string }
+              - { name: institution, label: "প্রতিষ্ঠান", widget: string }
+              - name: area
+                label: "এলাকা"
+                widget: select
+                options: ["বগুড়া শহর", "দুপচাঁচিয়া", "গাবতলী", "শিবগঞ্জ / মহাস্থান"]
+              - { name: attendance, label: "অংশগ্রহণ (যেমন ৩০০+)", widget: string, required: false }
+              - { name: note, label: "বিশেষত্ব", widget: text }
+              - { name: highlight, label: "হাইলাইট?", widget: boolean, required: false, default: false }
+          - name: curriculum
+            label: "কর্মশালার কাঠামো"
+            widget: list
+            fields:
+              - { name: bn, label: "বাংলা", widget: string }
+              - { name: en, label: "English", widget: string }
+
+  # ─────────────── টিম ───────────────
+  - name: people_file
+    label: "👥 টিম"
+    files:
+      - name: people
+        label: "উপদেষ্টা, মেন্টর ও কমিটি"
+        file: "src/content/data/people.json"
+        fields:
+          - name: groups
+            label: "দলসমূহ"
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { name: slug, label: "slug (ইংরেজি)", widget: string }
+              - { name: title, label: "শিরোনাম (বাংলা)", widget: string }
+              - { name: titleEn, label: "শিরোনাম (English)", widget: string }
+              - { name: blurb, label: "বিবরণ (বাংলা)", widget: text }
+              - { name: blurbEn, label: "বিবরণ (English)", widget: text }
+              - name: people
+                label: "সদস্যরা"
+                widget: list
+                summary: "{{fields.name}}"
+                fields:
+                  - { name: name, label: "নাম", widget: string }
+                  - { name: role, label: "পদ", widget: string }
+                  - { name: affiliation, label: "প্রতিষ্ঠান/পরিচয়", widget: string, required: false }
+                  - { name: note, label: "নোট", widget: string, required: false }
+                  - { name: photo, label: "ছবি", widget: image, required: false }
+          - name: guests
+            label: "অতিথি বক্তা ও বিচারক"
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { name: name, label: "নাম", widget: string }
+              - { name: role, label: "পদ", widget: string }
+              - { name: affiliation, label: "প্রতিষ্ঠান/পরিচয়", widget: string, required: false }
+              - { name: note, label: "নোট", widget: string, required: false }
+              - { name: photo, label: "ছবি", widget: image, required: false }
+
+  # ─────────────── টাইমলাইন, অংশীদার ও FAQ ───────────────
+  - name: misc_file
+    label: "🧭 টাইমলাইন · অংশীদার · FAQ"
+    files:
+      - name: misc
+        label: "টাইমলাইন, অংশীদার ও সহায়ক FAQ"
+        file: "src/content/data/misc.json"
+        fields:
+          - name: timeline
+            label: "পথচলার টাইমলাইন"
+            widget: list
+            summary: "{{fields.date}} — {{fields.title}}"
+            fields:
+              - { name: date, label: "তারিখ (বাংলা)", widget: string }
+              - { name: dateEn, label: "তারিখ (English)", widget: string }
+              - { name: kicker, label: "ছোট ট্যাগ", widget: string }
+              - { name: title, label: "শিরোনাম (বাংলা)", widget: string }
+              - { name: titleEn, label: "শিরোনাম (English)", widget: string }
+              - { name: body, label: "বিবরণ (বাংলা)", widget: text }
+              - { name: bodyEn, label: "বিবরণ (English)", widget: text }
+              - { name: href, label: "লিংক (ঐচ্ছিক, যেমন /events/x)", widget: string, required: false }
+              - { name: star, label: "তারকা চিহ্ন?", widget: boolean, required: false, default: false }
+          - name: partners
+            label: "অংশীদার"
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { name: name, label: "নাম", widget: string }
+              - { name: relation, label: "সম্পর্ক (বাংলা)", widget: string }
+              - { name: relationEn, label: "সম্পর্ক (English)", widget: string }
+              - name: kind
+                label: "ধরন"
+                widget: select
+                options: [org, institution, sponsor, authority]
+          - name: faqs
+            label: "সহায়ক widget-এর FAQ"
+            widget: list
+            summary: "{{fields.q}}"
+            fields:
+              - { name: q, label: "প্রশ্ন", widget: string }
+              - { name: keywords, label: "কীওয়ার্ড (মেলানোর জন্য)", widget: list }
+              - { name: a, label: "উত্তর", widget: text }

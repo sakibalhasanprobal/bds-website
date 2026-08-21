@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 600" fill="none" stroke="#0b1220" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+  <defs>
+    <g id="sitter">
+      <circle cx="0" cy="-30" r="15"/>
+      <path d="M-24 6c2-19 11-29 24-29s22 10 24 29"/>
+    </g>
+    <g id="sitter-b">
+      <circle cx="0" cy="-32" r="16"/>
+      <path d="M-26 6c3-20 12-30 26-30s23 10 26 30"/>
+      <path d="M-14 -14l-8 -12M14 -14l8 -12"/>
+    </g>
+  </defs>
+
+  <!-- back row -->
+  <g opacity=".32">
+    <use href="#sitter" x="150" y="180"/><use href="#sitter-b" x="250" y="180"/>
+    <use href="#sitter" x="350" y="180"/><use href="#sitter" x="450" y="180"/>
+    <use href="#sitter-b" x="550" y="180"/><use href="#sitter" x="650" y="180"/>
+    <use href="#sitter" x="950" y="180"/><use href="#sitter-b" x="1050" y="180"/>
+    <use href="#sitter" x="1150" y="180"/><use href="#sitter" x="1250" y="180"/>
+    <use href="#sitter-b" x="1350" y="180"/><use href="#sitter" x="1450" y="180"/>
+    <path d="M100 190h620M880 190h620"/>
+    <path d="M100 190v34h620v-34M880 190v34h620v-34"/>
+  </g>
+
+  <!-- middle row -->
+  <g opacity=".5">
+    <use href="#sitter-b" x="130" y="316"/><use href="#sitter" x="240" y="316"/>
+    <use href="#sitter" x="350" y="316"/><use href="#sitter-b" x="460" y="316"/>
+    <use href="#sitter" x="570" y="316"/><use href="#sitter" x="680" y="316"/>
+    <use href="#sitter" x="920" y="316"/><use href="#sitter" x="1030" y="316"/>
+    <use href="#sitter-b" x="1140" y="316"/><use href="#sitter" x="1250" y="316"/>
+    <use href="#sitter" x="1360" y="316"/><use href="#sitter-b" x="1470" y="316"/>
+    <path d="M80 328h660M860 328h660"/>
+    <path d="M80 328v40h660v-40M860 328v40h660v-40"/>
+  </g>
+
+  <!-- front row -->
+  <g opacity=".7">
+    <use href="#sitter" x="120" y="470"/><use href="#sitter-b" x="250" y="470"/>
+    <use href="#sitter" x="380" y="470"/><use href="#sitter" x="510" y="470"/>
+    <use href="#sitter-b" x="640" y="470"/>
+    <use href="#sitter-b" x="960" y="470"/><use href="#sitter" x="1090" y="470"/>
+    <use href="#sitter" x="1220" y="470"/><use href="#sitter-b" x="1350" y="470"/>
+    <use href="#sitter" x="1480" y="470"/>
+    <path d="M56 484h700M844 484h700"/>
+    <path d="M56 484v48h700v-48M844 484v48h700v-48"/>
+    <path d="M56 532h700M844 532h700"/>
+  </g>
+
+  <!-- speaker's chair in the middle aisle -->
+  <g opacity=".55">
+    <path d="M770 240v300"/>
+    <path d="M756 300h88v-64c0-24-20-42-44-42s-44 18-44 42z"/>
+    <path d="M756 300h88v42h-88z"/>
+    <path d="M776 342v42M824 342v42"/>
+    <path d="M786 250h28M778 268h44"/>
+  </g>
+</svg>

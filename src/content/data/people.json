@@ -1,0 +1,141 @@
+{
+  "groups": [
+    {
+      "slug": "advisors",
+      "title": "উপদেষ্টা প্যানেল",
+      "titleEn": "Advisory Panel",
+      "blurb": "জাতীয় বিতর্ক অঙ্গনের অভিজ্ঞ মানুষেরা, যাঁদের দিকনির্দেশনায় BDS পথ চলে।",
+      "blurbEn": "Experienced figures from the national debate circuit who guide BDS.",
+      "people": [
+        {
+          "name": "অরুপ রতন",
+          "role": "উপদেষ্টা, BDS",
+          "affiliation": "যুগ্ম মহাসচিব, ন্যাশনাল ডিবেট ফেডারেশন বাংলাদেশ (NDF BD)"
+        },
+        {
+          "name": "মোঃ আবু আওয়াল সরদার",
+          "role": "শিক্ষক ও উপদেষ্টা",
+          "affiliation": "সহ-সভাপতি (প্রকাশনা), NDF BD"
+        }
+      ]
+    },
+    {
+      "slug": "mentors",
+      "title": "মেন্টর প্যানেল",
+      "titleEn": "Mentor Panel",
+      "blurb": "দেশের বিভিন্ন বিশ্ববিদ্যালয় ও মেডিকেল কলেজের বিতার্কিকরা, যাঁরা কর্মশালা ও অনুশীলনী সেশন পরিচালনা করেন।",
+      "blurbEn": "Debaters from universities and medical colleges across the country who run our workshops and practice sessions.",
+      "people": [
+        {
+          "name": "জারিন তাসনিম মিতু",
+          "role": "মেন্টর",
+          "affiliation": "রাজশাহী বিশ্ববিদ্যালয় ডিবেটিং ফোরাম (RUDF), ইংরেজি বিভাগ",
+          "note": "Beyond Words-এর প্রশিক্ষক; ১ম Solo Speech-এর কলেজ ক্যাটাগরি বিজয়ী"
+        },
+        {
+          "name": "সাজেদুর রাহমান",
+          "role": "মেন্টর",
+          "affiliation": "ঢাকা বিশ্ববিদ্যালয় — Biochemistry & Molecular Biology; NDC, BMSC"
+        },
+        {
+          "name": "আরহাম মুসফিক",
+          "role": "মেন্টর",
+          "affiliation": "শহীদ সোহরাওয়ার্দী মেডিকেল কলেজ ডিবেট ক্লাব; সাবেক VP (Admin), RCDC",
+          "note": "Traditional Debate Mastery কর্মশালার মেন্টর"
+        },
+        {
+          "name": "রেশমা রহমান",
+          "role": "মেন্টর",
+          "affiliation": "স্যার সলিমুল্লাহ মেডিকেল কলেজ (SSMC)"
+        }
+      ]
+    },
+    {
+      "slug": "executive",
+      "title": "কার্যনির্বাহী কমিটি ২০২৬–২৭",
+      "titleEn": "Executive Committee 2026–27",
+      "blurb": "বর্তমান কমিটি — দৈনন্দিন কার্যক্রম, কর্মশালা ও প্রতিযোগিতা পরিচালনার দায়িত্বে।",
+      "blurbEn": "The current committee, responsible for day-to-day operations, workshops and tournaments.",
+      "people": [
+        {
+          "name": "Mohammad Hasin Shahriyar",
+          "role": "ভারপ্রাপ্ত সভাপতি",
+          "affiliation": "VP (Admin & Finance) থেকে দায়িত্বপ্রাপ্ত, জুলাই ২০২৬"
+        },
+        {
+          "name": "মার্জিয়া আক্তার",
+          "role": "সহ-সভাপতি — VP (Debate & Workshop)",
+          "note": "তর্ক তরঙ্গ ২৬-এর Debater of the Tournament"
+        },
+        {
+          "name": "Junaid Ahmed Tonmoy",
+          "role": "দপ্তর সম্পাদক"
+        }
+      ]
+    },
+    {
+      "slug": "student-advisors",
+      "title": "শিক্ষার্থী উপদেষ্টা",
+      "titleEn": "Student Advisors",
+      "blurb": "বগুড়ার কলেজ ডিবেটিং ক্লাবগুলোর সাথে সেতুবন্ধন।",
+      "blurbEn": "Our bridge to the debating clubs of Bogura’s colleges.",
+      "people": [
+        {
+          "name": "সালমিন মোস্তারি তহুরা",
+          "role": "শিক্ষার্থী উপদেষ্টা",
+          "affiliation": "সভাপতি, সরকারি মজিবর রহমান ভান্ডারী মহিলা কলেজ ডিবেটিং ক্লাব"
+        },
+        {
+          "name": "বাইজিদ কাদির",
+          "role": "শিক্ষার্থী উপদেষ্টা"
+        }
+      ]
+    },
+    {
+      "slug": "founding",
+      "title": "প্রতিষ্ঠাতা কমিটি ২০২৫–২৬",
+      "titleEn": "Founding Committee 2025–26",
+      "blurb": "যাঁদের হাত ধরে ০১ এপ্রিল ২০২৫-এ বগুড়া ডিবেটিং সোসাইটির যাত্রা শুরু।",
+      "blurbEn": "The people who started Bogura Debating Society on 1 April 2025.",
+      "people": [
+        {
+          "name": "মোঃ সাকিব আল হাসান প্রবাল",
+          "role": "প্রতিষ্ঠাতা ও সভাপতি (২০২৫–২৬)"
+        },
+        {
+          "name": "তাসফিয়া জিন্নাত নাবিলা",
+          "role": "সাধারণ সম্পাদক (২০২৫–২৬)",
+          "affiliation": "প্রতিষ্ঠাতা ও সাবেক সভাপতি, AHC ডিবেটিং ক্লাব"
+        },
+        {
+          "name": "মোহাম্মাদ আলী",
+          "role": "সহ-সভাপতি — VP (Debate & Workshop)"
+        },
+        {
+          "name": "নাছিব ইকবাল আবির",
+          "role": "কার্যনির্বাহী সদস্য"
+        }
+      ]
+    }
+  ],
+  "guests": [
+    {
+      "name": "Md. Rishad Nur",
+      "role": "অতিথি বক্তা",
+      "affiliation": "সাবেক সভাপতি, Begum Rokeya University Debate Forum (BRUDF)",
+      "note": "\"Debate: What, Why, How\" অনলাইন সেশন"
+    },
+    {
+      "name": "আহসান ইবনাত তুবা",
+      "role": "বিচারক",
+      "affiliation": "স্যার সলিমুল্লাহ মেডিকেল কলেজ",
+      "note": "তর্ক তরঙ্গ ২৬-এর বিচারকমণ্ডলী"
+    },
+    {
+      "name": "জারিন তাসনীম তুবা",
+      "role": "বিচারক",
+      "affiliation": "শহীদ সোহরাওয়ার্দী মেডিকেল কলেজ ডিবেট ক্লাব",
+      "note": "তর্ক তরঙ্গ ২৬-এর বিচারকমণ্ডলী"
+    }
+  ]
+}
