@@ -184,7 +184,7 @@ export const bn = {
     greeting: 'আসসালামু আলাইকুম! আমি BDS সহায়ক। সদস্য হওয়া, কর্মশালা বা অনুশীলনী বিতর্ক নিয়ে জিজ্ঞেস করতে পারো।',
     placeholder: 'তোমার প্রশ্ন লেখো…',
     send: 'পাঠাও',
-    fallback: 'এই প্রশ্নের প্রস্তুত উত্তর এখনো নেই। যোগাযোগ পাতা থেকে সরাসরি লিখলে টিম উত্তর দেবে।',
+    fallback: 'এই প্রশ্নের প্রস্তুত উত্তর এখনো নেই — নিচের নম্বরে কল করো বা ই-মেইল পাঠাও, টিম সরাসরি উত্তর দেবে:',
     suggestions: 'যা জিজ্ঞেস করতে পারো',
   },
   footer: {
@@ -388,7 +388,7 @@ export const en: Dict = {
     greeting: 'Hello! I am the BDS helper. Ask me about joining, workshops or our practice debates.',
     placeholder: 'Type your question…',
     send: 'Send',
-    fallback: 'I do not have a ready answer for that yet. Write to us from the contact page and the team will reply.',
+    fallback: 'I do not have a ready answer for that yet — call or email us directly and the team will reply:',
     suggestions: 'You could ask',
   },
   footer: {

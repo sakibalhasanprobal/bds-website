@@ -1,25 +1,42 @@
 'use client';
 
 import { useRef, useState } from 'react';
-import { X, Send, MessageCircleQuestion } from 'lucide-react';
+import { X, Send, MessageCircleQuestion, Phone, Mail } from 'lucide-react';
 import type { Lang } from '@/content/site';
+import { site } from '@/content/site';
 import { getDict } from '@/content/dict';
 import { faqs } from '@/content/timeline';
 
-type Msg = { id: number; role: 'bot' | 'user'; text: string };
+type Msg = { id: number; role: 'bot' | 'user'; text: string; contact?: boolean };
 
-/** কীওয়ার্ড মিলিয়ে FAQ থেকে উত্তর — কোনো বাইরের API নয়, সব ব্রাউজারেই চলে */
+/**
+ * কীওয়ার্ড মিলিয়ে FAQ থেকে উত্তর — কোনো বাইরের API নয়, সব ব্রাউজারেই চলে।
+ * আংশিক প্রশ্ন মিললেও উত্তর আসে:
+ *  - প্রশ্নের শব্দ FAQ-এর প্রশ্ন/কীওয়ার্ডে আছে কি না (আংশিক মিলসহ)
+ *  - FAQ-এর কীওয়ার্ড প্রশ্নের ভেতরে আছে কি না (কীওয়ার্ড-মিলের ওজন বেশি)
+ */
 function answer(q: string): string | null {
-  const s = q.trim().toLowerCase();
+  const s = q.trim().toLowerCase().replace(/[?।,!.;:"'"]/g, ' ');
   if (!s) return null;
-  const words = s.split(/\s+/).filter((w) => w.length > 2);
+  const words = s.split(/\s+/).filter((w) => w.length > 1);
   let best: { score: number; a: string } | null = null;
   for (const f of faqs) {
+    const kws = f.keywords.map((k) => k.toLowerCase());
     const hay = `${f.q} ${f.keywords.join(' ')}`.toLowerCase();
-    const score = words.reduce((n, w) => (hay.includes(w) ? n + 1 : n), 0);
+    let score = 0;
+    // FAQ-এর কীওয়ার্ড প্রশ্নের ভেতরে (আংশিক হলেও) — শক্ত সংকেত
+    for (const k of kws) if (k.length > 1 && s.includes(k)) score += 3;
+    // প্রশ্নের শব্দ FAQ-টেক্সটে
+    for (const w of words) {
+      if (hay.includes(w)) { score += 1; continue; }
+      // বাংলা বিভক্তি-সহ আংশিক মিল: শব্দের প্রথম অংশ (৩+ অক্ষর) দিয়ে চেষ্টা
+      if (w.length > 3 && hay.includes(w.slice(0, w.length - 1))) score += 1;
+      else if (w.length > 4 && hay.includes(w.slice(0, w.length - 2))) score += 1;
+    }
     if (score > 0 && (!best || score > best.score)) best = { score, a: f.a };
   }
-  return best ? best.a : null;
+  // ন্যূনতম আস্থা: শুধু ১ পয়েন্টের দুর্বল মিল হলে উত্তর নয়
+  return best && best.score >= 2 ? best.a : null;
 }
 
 export default function Buddy({ lang }: { lang: Lang }) {
@@ -32,11 +49,13 @@ export default function Buddy({ lang }: { lang: Lang }) {
   const ask = (text: string) => {
     const q = text.trim();
     if (!q) return;
-    const reply = answer(q) ?? d.buddy.fallback;
+    const found = answer(q);
     setMsgs((m) => [
       ...m,
       { id: idRef.current++, role: 'user', text: q },
-      { id: idRef.current++, role: 'bot', text: reply },
+      found
+        ? { id: idRef.current++, role: 'bot', text: found }
+        : { id: idRef.current++, role: 'bot', text: d.buddy.fallback, contact: true },
     ]);
     setInput('');
   };
@@ -72,6 +91,22 @@ export default function Buddy({ lang }: { lang: Lang }) {
                 }`}
               >
                 {m.text}
+                {m.contact && (
+                  <span className="mt-2.5 grid gap-1.5">
+                    <a
+                      href={`tel:${site.phoneIntl}`}
+                      className="focus-ring flex items-center gap-2 rounded-lg border border-[var(--border-strong)] bg-[var(--surface)] px-3 py-2 text-[0.82rem] font-bold text-[var(--primary)] hover:border-[var(--accent)]"
+                    >
+                      <Phone className="size-3.5 shrink-0" aria-hidden /> {site.phone}
+                    </a>
+                    <a
+                      href={`mailto:${site.email}`}
+                      className="focus-ring flex items-center gap-2 rounded-lg border border-[var(--border-strong)] bg-[var(--surface)] px-3 py-2 text-[0.82rem] font-bold text-[var(--primary)] hover:border-[var(--accent)]"
+                    >
+                      <Mail className="size-3.5 shrink-0" aria-hidden /> <span className="break-all">{site.email}</span>
+                    </a>
+                  </span>
+                )}
               </div>
             ))}
 
