@@ -79,16 +79,16 @@ export default async function JoinPage({ params }: { params: Promise<{ lang: str
           <SectionHead eyebrow={bn ? 'পূরণ করতে ৩ মিনিট' : 'Three minutes to fill'} title={d.join.formTitle} />
 
           <form
-            name="bds-join"
             method="POST"
-            data-netlify="true"
-            netlify-honeypot="bot-field"
-            action={`/${lang}/thanks/`}
+            action="https://formsubmit.co/boguradebatingsociety@gmail.com"
             className="grid gap-5"
           >
-            <input type="hidden" name="form-name" value="bds-join" />
+            <input type="hidden" name="_subject" value={bn ? 'BDS ওয়েবসাইট: নতুন সদস্য আবেদন' : 'BDS website: new membership application'} />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value={`https://boguradebatingsociety.pages.dev/${lang}/thanks/`} />
             <p className="hidden">
-              <label>{bn ? 'এটি খালি রাখো' : 'Leave this empty'}<input name="bot-field" /></label>
+              <label>{bn ? 'এটি খালি রাখো' : 'Leave this empty'}<input name="_honey" /></label>
             </p>
 
             <div className="grid gap-5 sm:grid-cols-2">

@@ -67,15 +67,15 @@ export default async function ContactPage({ params }: { params: Promise<{ lang: 
           <div className="bench-panel p-6 sm:p-9">
             <SectionHead eyebrow={bn ? 'টিম উত্তর দেবে' : 'The team will reply'} title={d.contact.formTitle} />
             <form
-              name="bds-contact"
               method="POST"
-              data-netlify="true"
-              netlify-honeypot="bot-field"
-              action={`/${lang}/thanks/`}
+              action="https://formsubmit.co/boguradebatingsociety@gmail.com"
               className="grid gap-5"
             >
-              <input type="hidden" name="form-name" value="bds-contact" />
-              <p className="hidden"><label>{bn ? 'খালি রাখো' : 'Leave empty'}<input name="bot-field" /></label></p>
+              <input type="hidden" name="_subject" value={bn ? 'BDS ওয়েবসাইট: যোগাযোগ ফর্মের বার্তা' : 'BDS website: contact form message'} />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_next" value={`https://boguradebatingsociety.pages.dev/${lang}/thanks/`} />
+              <p className="hidden"><label>{bn ? 'খালি রাখো' : 'Leave empty'}<input name="_honey" /></label></p>
 
               <div className="grid gap-5 sm:grid-cols-2">
                 <div>

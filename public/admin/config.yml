@@ -1,14 +1,15 @@
 # ═══════════════════════════════════════════════════════════════
 #  BDS অ্যাডমিন প্যানেল — Decap CMS কনফিগারেশন
 #  এখানে সেভ করা প্রতিটি পরিবর্তন GitHub-এ কমিট হয়,
-#  আর Netlify ১–২ মিনিটে নতুন সাইট বিল্ড করে লাইভ করে দেয়।
+#  আর Cloudflare Pages ১–২ মিনিটে নতুন সাইট বিল্ড করে লাইভ করে দেয়।
 # ═══════════════════════════════════════════════════════════════
 
 backend:
   name: github
   repo: sakibalhasanprobal/bds-website
   branch: main
-  base_url: https://api.netlify.com
+  base_url: https://boguradebatingsociety.pages.dev
+  auth_endpoint: auth
   commit_messages:
     create: "অ্যাডমিন প্যানেল: {{collection}} — নতুন এন্ট্রি"
     update: "অ্যাডমিন প্যানেল: {{collection}} — আপডেট"
