@@ -1,129 +1,6 @@
 {
   "groups": [
     {
-      "slug": "advisors",
-      "title": "উপদেষ্টা প্যানেল",
-      "titleEn": "Advisory Panel",
-      "blurb": "জাতীয় বিতর্ক অঙ্গনের অভিজ্ঞ মানুষেরা, যাঁদের দিকনির্দেশনায় BDS পথ চলে।",
-      "blurbEn": "Experienced figures from the national debate circuit who guide BDS.",
-      "people": [
-        {
-          "name": "অরুপ রতন",
-          "role": "উপদেষ্টা, BDS",
-          "affiliation": "যুগ্ম মহাসচিব, ন্যাশনাল ডিবেট ফেডারেশন বাংলাদেশ (NDF BD)"
-        },
-        {
-          "name": "মোঃ আবু আওয়াল সরদার",
-          "role": "শিক্ষক ও উপদেষ্টা",
-          "affiliation": "সহ-সভাপতি (প্রকাশনা), NDF BD"
-        }
-      ]
-    },
-    {
-      "slug": "mentors",
-      "title": "মেন্টর প্যানেল",
-      "titleEn": "Mentor Panel",
-      "blurb": "দেশের বিভিন্ন বিশ্ববিদ্যালয় ও মেডিকেল কলেজের বিতার্কিকরা, যাঁরা কর্মশালা ও অনুশীলনী সেশন পরিচালনা করেন।",
-      "blurbEn": "Debaters from universities and medical colleges across the country who run our workshops and practice sessions.",
-      "people": [
-        {
-          "name": "জারিন তাসনিম মিতু",
-          "role": "মেন্টর",
-          "affiliation": "রাজশাহী বিশ্ববিদ্যালয় ডিবেটিং ফোরাম (RUDF), ইংরেজি বিভাগ",
-          "note": "Beyond Words-এর প্রশিক্ষক; ১ম Solo Speech-এর কলেজ ক্যাটাগরি বিজয়ী"
-        },
-        {
-          "name": "সাজেদুর রাহমান",
-          "role": "মেন্টর",
-          "affiliation": "ঢাকা বিশ্ববিদ্যালয় — Biochemistry & Molecular Biology; NDC, BMSC"
-        },
-        {
-          "name": "আরহাম মুসফিক",
-          "role": "মেন্টর",
-          "affiliation": "শহীদ সোহরাওয়ার্দী মেডিকেল কলেজ ডিবেট ক্লাব; সাবেক VP (Admin), RCDC",
-          "note": "Traditional Debate Mastery কর্মশালার মেন্টর"
-        },
-        {
-          "name": "রেশমা রহমান",
-          "role": "মেন্টর",
-          "affiliation": "স্যার সলিমুল্লাহ মেডিকেল কলেজ (SSMC)"
-        }
-      ]
-    },
-    {
-      "slug": "executive",
-      "title": "অন্তর্বর্তী কমিটি ২০২৬–২৭",
-      "titleEn": "Interim Committee 2026–27",
-      "blurb": "বর্তমানে দায়িত্বে থাকা অন্তর্বর্তী কমিটি — দৈনন্দিন কার্যক্রম, কর্মশালা ও প্রতিযোগিতা পরিচালনার দায়িত্বে।",
-      "blurbEn": "The interim committee currently in charge of day-to-day operations, workshops and tournaments.",
-      "people": [
-        {
-          "name": "মোহাম্মদ হাসিন শাহরিয়ার",
-          "role": "ভারপ্রাপ্ত সভাপতি",
-          "affiliation": "Acting President"
-        },
-        {
-          "name": "মোছাঃ মার্জিয়া আক্তার",
-          "role": "ভারপ্রাপ্ত সহ-সভাপতি",
-          "affiliation": "Acting Vice President",
-          "note": "তর্ক তরঙ্গ ২৬-এর Debater of the Tournament"
-        },
-        {
-          "name": "জুনাইদ আহমেদ তন্ময়",
-          "role": "ভারপ্রাপ্ত সাধারণ সম্পাদক",
-          "affiliation": "Acting General Secretary"
-        },
-        {
-          "name": "রুমাইয়া বিনতে রশিদ",
-          "role": "ভারপ্রাপ্ত সাংগঠনিক সম্পাদক",
-          "affiliation": "Acting Organizing Secretary"
-        },
-        {
-          "name": "নাজমুস সাকিব অর্ণব",
-          "role": "ভারপ্রাপ্ত দপ্তর সম্পাদক",
-          "affiliation": "Acting Office Secretary"
-        },
-        {
-          "name": "মাইশা হাসানা",
-          "role": "ভারপ্রাপ্ত বিতর্ক ও কর্মশালা সম্পাদক",
-          "affiliation": "Acting Debate & Workshop Secretary"
-        },
-        {
-          "name": "নাহিয়া কহনা",
-          "role": "ভারপ্রাপ্ত জনসংযোগ সম্পাদক",
-          "affiliation": "Acting Public Relations Secretary"
-        },
-        {
-          "name": "রাফিকা তুল কোবরা",
-          "role": "ভারপ্রাপ্ত মানবসম্পদ সম্পাদক",
-          "affiliation": "Acting Human Resource Secretary"
-        },
-        {
-          "name": "আফরা অন্তি",
-          "role": "ভারপ্রাপ্ত কোষাধ্যক্ষ",
-          "affiliation": "Acting Treasurer"
-        }
-      ]
-    },
-    {
-      "slug": "student-advisors",
-      "title": "শিক্ষার্থী উপদেষ্টা",
-      "titleEn": "Student Advisors",
-      "blurb": "বগুড়ার কলেজ ডিবেটিং ক্লাবগুলোর সাথে সেতুবন্ধন।",
-      "blurbEn": "Our bridge to the debating clubs of Bogura’s colleges.",
-      "people": [
-        {
-          "name": "সালমিন মোস্তারি তহুরা",
-          "role": "শিক্ষার্থী উপদেষ্টা",
-          "affiliation": "সভাপতি, সরকারি মজিবর রহমান ভান্ডারী মহিলা কলেজ ডিবেটিং ক্লাব"
-        },
-        {
-          "name": "বাইজিদ কাদির",
-          "role": "শিক্ষার্থী উপদেষ্টা"
-        }
-      ]
-    },
-    {
       "slug": "Founding",
       "title": "প্রতিষ্ঠাতা কমিটি ২০২৫–২৬",
       "titleEn": "Founding Committee 2025–26",
@@ -229,6 +106,129 @@
           "name": "এম. এম. রুবায়েত",
           "role": "কার্যনির্বাহী সদস্য",
           "affiliation": "Executive Member"
+        }
+      ]
+    },
+    {
+      "slug": "executive",
+      "title": "অন্তর্বর্তী কমিটি ২০২৬–২৭",
+      "titleEn": "Interim Committee 2026–27",
+      "blurb": "বর্তমানে দায়িত্বে থাকা অন্তর্বর্তী কমিটি — দৈনন্দিন কার্যক্রম, কর্মশালা ও প্রতিযোগিতা পরিচালনার দায়িত্বে।",
+      "blurbEn": "The interim committee currently in charge of day-to-day operations, workshops and tournaments.",
+      "people": [
+        {
+          "name": "মোহাম্মদ হাসিন শাহরিয়ার",
+          "role": "ভারপ্রাপ্ত সভাপতি",
+          "affiliation": "Acting President"
+        },
+        {
+          "name": "মোছাঃ মার্জিয়া আক্তার",
+          "role": "ভারপ্রাপ্ত সহ-সভাপতি",
+          "affiliation": "Acting Vice President",
+          "note": "তর্ক তরঙ্গ ২৬-এর Debater of the Tournament"
+        },
+        {
+          "name": "জুনাইদ আহমেদ তন্ময়",
+          "role": "ভারপ্রাপ্ত সাধারণ সম্পাদক",
+          "affiliation": "Acting General Secretary"
+        },
+        {
+          "name": "রুমাইয়া বিনতে রশিদ",
+          "role": "ভারপ্রাপ্ত সাংগঠনিক সম্পাদক",
+          "affiliation": "Acting Organizing Secretary"
+        },
+        {
+          "name": "নাজমুস সাকিব অর্ণব",
+          "role": "ভারপ্রাপ্ত দপ্তর সম্পাদক",
+          "affiliation": "Acting Office Secretary"
+        },
+        {
+          "name": "মাইশা হাসানা",
+          "role": "ভারপ্রাপ্ত বিতর্ক ও কর্মশালা সম্পাদক",
+          "affiliation": "Acting Debate & Workshop Secretary"
+        },
+        {
+          "name": "নাহিয়া কহনা",
+          "role": "ভারপ্রাপ্ত জনসংযোগ সম্পাদক",
+          "affiliation": "Acting Public Relations Secretary"
+        },
+        {
+          "name": "রাফিকা তুল কোবরা",
+          "role": "ভারপ্রাপ্ত মানবসম্পদ সম্পাদক",
+          "affiliation": "Acting Human Resource Secretary"
+        },
+        {
+          "name": "আফরা অন্তি",
+          "role": "ভারপ্রাপ্ত কোষাধ্যক্ষ",
+          "affiliation": "Acting Treasurer"
+        }
+      ]
+    },
+    {
+      "slug": "advisors",
+      "title": "উপদেষ্টা প্যানেল",
+      "titleEn": "Advisory Panel",
+      "blurb": "জাতীয় বিতর্ক অঙ্গনের অভিজ্ঞ মানুষেরা, যাঁদের দিকনির্দেশনায় BDS পথ চলে।",
+      "blurbEn": "Experienced figures from the national debate circuit who guide BDS.",
+      "people": [
+        {
+          "name": "অরুপ রতন",
+          "role": "উপদেষ্টা, BDS",
+          "affiliation": "যুগ্ম মহাসচিব, ন্যাশনাল ডিবেট ফেডারেশন বাংলাদেশ (NDF BD)"
+        },
+        {
+          "name": "মোঃ আবু আওয়াল সরদার",
+          "role": "শিক্ষক ও উপদেষ্টা",
+          "affiliation": "সহ-সভাপতি (প্রকাশনা), NDF BD"
+        }
+      ]
+    },
+    {
+      "slug": "student-advisors",
+      "title": "শিক্ষার্থী উপদেষ্টা",
+      "titleEn": "Student Advisors",
+      "blurb": "বগুড়ার কলেজ ডিবেটিং ক্লাবগুলোর সাথে সেতুবন্ধন।",
+      "blurbEn": "Our bridge to the debating clubs of Bogura’s colleges.",
+      "people": [
+        {
+          "name": "সালমিন মোস্তারি তহুরা",
+          "role": "শিক্ষার্থী উপদেষ্টা",
+          "affiliation": "সভাপতি, সরকারি মজিবর রহমান ভান্ডারী মহিলা কলেজ ডিবেটিং ক্লাব"
+        },
+        {
+          "name": "বাইজিদ কাদির",
+          "role": "শিক্ষার্থী উপদেষ্টা"
+        }
+      ]
+    },
+    {
+      "slug": "mentors",
+      "title": "মেন্টর প্যানেল",
+      "titleEn": "Mentor Panel",
+      "blurb": "দেশের বিভিন্ন বিশ্ববিদ্যালয় ও মেডিকেল কলেজের বিতার্কিকরা, যাঁরা কর্মশালা ও অনুশীলনী সেশন পরিচালনা করেন।",
+      "blurbEn": "Debaters from universities and medical colleges across the country who run our workshops and practice sessions.",
+      "people": [
+        {
+          "name": "জারিন তাসনিম মিতু",
+          "role": "মেন্টর",
+          "affiliation": "রাজশাহী বিশ্ববিদ্যালয় ডিবেটিং ফোরাম (RUDF), ইংরেজি বিভাগ",
+          "note": "Beyond Words-এর প্রশিক্ষক; ১ম Solo Speech-এর কলেজ ক্যাটাগরি বিজয়ী"
+        },
+        {
+          "name": "সাজেদুর রাহমান",
+          "role": "মেন্টর",
+          "affiliation": "ঢাকা বিশ্ববিদ্যালয় — Biochemistry & Molecular Biology; NDC, BMSC"
+        },
+        {
+          "name": "আরহাম মুসফিক",
+          "role": "মেন্টর",
+          "affiliation": "শহীদ সোহরাওয়ার্দী মেডিকেল কলেজ ডিবেট ক্লাব; সাবেক VP (Admin), RCDC",
+          "note": "Traditional Debate Mastery কর্মশালার মেন্টর"
+        },
+        {
+          "name": "রেশমা রহমান",
+          "role": "মেন্টর",
+          "affiliation": "স্যার সলিমুল্লাহ মেডিকেল কলেজ (SSMC)"
         }
       ]
     }
