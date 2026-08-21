@@ -100,17 +100,103 @@
       "people": [
         {
           "name": "মোঃ সাকিব আল হাসান প্রবাল",
-          "role": "প্রতিষ্ঠাতা ও সভাপতি (২০২৫–২৬)",
-          "photo": "/images/uploads/whatsapp-image-2026-05-11-at-11.37.15-am.jpeg"
+          "role": "সভাপতি",
+          "affiliation": "President"
+        },
+        {
+          "name": "আব্দুল্লাহ আল আরাফাত",
+          "role": "সহ-সভাপতি",
+          "affiliation": "Vice President"
         },
         {
           "name": "তাসফিয়া জিন্নাত নাবিলা",
-          "role": "সাধারণ সম্পাদক (২০২৫–২৬)",
-          "affiliation": "প্রতিষ্ঠাতা ও সাবেক সভাপতি, AHC ডিবেটিং ক্লাব"
+          "role": "সাধারণ সম্পাদক",
+          "affiliation": "General Secretary · প্রতিষ্ঠাতা ও সাবেক সভাপতি, AHC ডিবেটিং ক্লাব"
         },
         {
           "name": "মোহাম্মাদ আলী",
-          "role": "সহ-সভাপতি — VP (Debate & Workshop)"
+          "role": "যুগ্ম সম্পাদক",
+          "affiliation": "Joint Secretary"
+        },
+        {
+          "name": "নাছিব ইকবাল আবির",
+          "role": "সাংগঠনিক সম্পাদক",
+          "affiliation": "Organizing Secretary"
+        },
+        {
+          "name": "শুভা তাসনিম সিথি",
+          "role": "বিতর্ক ও কর্মশালা সম্পাদক",
+          "affiliation": "Debate & Workshop Secretary"
+        },
+        {
+          "name": "জুনাইদ আহমেদ তন্ময়",
+          "role": "দপ্তর সম্পাদক",
+          "affiliation": "Office Secretary"
+        },
+        {
+          "name": "সিনাত হাসান নাবিল",
+          "role": "আইটি ও প্রকাশনা সম্পাদক",
+          "affiliation": "IT & Publication Secretary"
+        },
+        {
+          "name": "মুশফিকুর আহমেদ মুহিত",
+          "role": "কোষাধ্যক্ষ",
+          "affiliation": "Treasurer"
+        },
+        {
+          "name": "মাহিন আফরোজ জুথি",
+          "role": "ইকুইটি অফিসার",
+          "affiliation": "Equity Officer"
+        },
+        {
+          "name": "তাসনিম তানহা",
+          "role": "কার্যনির্বাহী সদস্য",
+          "affiliation": "Executive Member"
+        },
+        {
+          "name": "আব্দুর রহমান দিয়ান",
+          "role": "কার্যনির্বাহী সদস্য",
+          "affiliation": "Executive Member"
+        },
+        {
+          "name": "ইসরাত জাহান মুন",
+          "role": "কার্যনির্বাহী সদস্য",
+          "affiliation": "Executive Member"
+        },
+        {
+          "name": "মাইশা হাসান দুপুর",
+          "role": "কার্যনির্বাহী সদস্য",
+          "affiliation": "Executive Member"
+        },
+        {
+          "name": "শাম উন শারার",
+          "role": "কার্যনির্বাহী সদস্য",
+          "affiliation": "Executive Member"
+        },
+        {
+          "name": "আফরা আনজুম",
+          "role": "কার্যনির্বাহী সদস্য",
+          "affiliation": "Executive Member"
+        },
+        {
+          "name": "জোবায়ের বিন সিদ্দিক",
+          "role": "কার্যনির্বাহী সদস্য",
+          "affiliation": "Executive Member"
+        },
+        {
+          "name": "আল ইয়াসা রহমান",
+          "role": "কার্যনির্বাহী সদস্য",
+          "affiliation": "Executive Member"
+        },
+        {
+          "name": "আরমান মাশরাফি",
+          "role": "কার্যনির্বাহী সদস্য",
+          "affiliation": "Executive Member"
+        },
+        {
+          "name": "এম. এম. রুবায়েত",
+          "role": "কার্যনির্বাহী সদস্য",
+          "affiliation": "Executive Member"
         }
       ]
     }
