@@ -139,7 +139,7 @@ export const bn = {
     typesTitle: 'তিন ধরনের সদস্যপদ',
     formTitle: 'আবেদন ফর্ম',
     formNote:
-      'ফর্মটি এখনো কোনো সার্ভারে যুক্ত নয় — README-র "Form সংযুক্ত করা" অংশ দেখে Netlify Forms চালু করো, দুই মিনিটের কাজ।',
+      'পাঠানো তথ্য নিরাপদে Netlify Forms-এ জমা হয় — BDS টিম ড্যাশবোর্ড থেকে দেখে দ্রুত যোগাযোগ করবে।',
     name: 'পূর্ণ নাম',
     institution: 'প্রতিষ্ঠান',
     classYear: 'শ্রেণি / বর্ষ',
@@ -343,7 +343,7 @@ export const en: Dict = {
     typesTitle: 'Three kinds of recruitment',
     formTitle: 'Application form',
     formNote:
-      'This form is not wired to a server yet — see “Connecting the forms” in the README to switch on Netlify Forms. It takes two minutes.',
+      'Your submission is stored safely in Netlify Forms — the BDS team checks the dashboard and will get back to you soon.',
     name: 'Full name',
     institution: 'Institution',
     classYear: 'Class / year',
