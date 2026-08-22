@@ -10,102 +10,142 @@
         {
           "name": "মোঃ সাকিব আল হাসান প্রবাল",
           "role": "সভাপতি",
-          "affiliation": "President"
+          "affiliation": "President",
+          "note": "",
+          "photo": "/images/uploads/496311604_1469411784220772_2109221151575359708_n.jpg"
         },
         {
           "name": "আব্দুল্লাহ আল আরাফাত",
           "role": "সহ-সভাপতি",
-          "affiliation": "Vice President"
+          "affiliation": "Vice President",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "তাসফিয়া জিন্নাত নাবিলা",
           "role": "সাধারণ সম্পাদক",
-          "affiliation": "General Secretary · প্রতিষ্ঠাতা ও সাবেক সভাপতি, AHC ডিবেটিং ক্লাব"
+          "affiliation": "General Secretary",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "মোহাম্মাদ আলী",
           "role": "যুগ্ম সম্পাদক",
-          "affiliation": "Joint Secretary"
+          "affiliation": "Joint Secretary",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "নাছিব ইকবাল আবির",
           "role": "সাংগঠনিক সম্পাদক",
-          "affiliation": "Organizing Secretary"
+          "affiliation": "Organizing Secretary",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "শুভা তাসনিম সিথি",
           "role": "বিতর্ক ও কর্মশালা সম্পাদক",
-          "affiliation": "Debate & Workshop Secretary"
+          "affiliation": "Debate & Workshop Secretary",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "জুনাইদ আহমেদ তন্ময়",
           "role": "দপ্তর সম্পাদক",
-          "affiliation": "Office Secretary"
+          "affiliation": "Office Secretary",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "সিনাত হাসান নাবিল",
           "role": "আইটি ও প্রকাশনা সম্পাদক",
-          "affiliation": "IT & Publication Secretary"
+          "affiliation": "IT & Publication Secretary",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "মুশফিকুর আহমেদ মুহিত",
           "role": "কোষাধ্যক্ষ",
-          "affiliation": "Treasurer"
+          "affiliation": "Treasurer",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "মাহিন আফরোজ জুথি",
           "role": "ইকুইটি অফিসার",
-          "affiliation": "Equity Officer"
+          "affiliation": "Equity Officer",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "তাসনিম তানহা",
           "role": "কার্যনির্বাহী সদস্য",
-          "affiliation": "Executive Member"
+          "affiliation": "Executive Member",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "আব্দুর রহমান দিয়ান",
           "role": "কার্যনির্বাহী সদস্য",
-          "affiliation": "Executive Member"
+          "affiliation": "Executive Member",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "ইসরাত জাহান মুন",
           "role": "কার্যনির্বাহী সদস্য",
-          "affiliation": "Executive Member"
+          "affiliation": "Executive Member",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "মাইশা হাসান দুপুর",
           "role": "কার্যনির্বাহী সদস্য",
-          "affiliation": "Executive Member"
+          "affiliation": "Executive Member",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "শাম উন শারার",
           "role": "কার্যনির্বাহী সদস্য",
-          "affiliation": "Executive Member"
+          "affiliation": "Executive Member",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "আফরা আনজুম",
           "role": "কার্যনির্বাহী সদস্য",
-          "affiliation": "Executive Member"
+          "affiliation": "Executive Member",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "জোবায়ের বিন সিদ্দিক",
           "role": "কার্যনির্বাহী সদস্য",
-          "affiliation": "Executive Member"
+          "affiliation": "Executive Member",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "আল ইয়াসা রহমান",
           "role": "কার্যনির্বাহী সদস্য",
-          "affiliation": "Executive Member"
+          "affiliation": "Executive Member",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "আরমান মাশরাফি",
           "role": "কার্যনির্বাহী সদস্য",
-          "affiliation": "Executive Member"
+          "affiliation": "Executive Member",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "এম. এম. রুবায়েত",
           "role": "কার্যনির্বাহী সদস্য",
-          "affiliation": "Executive Member"
+          "affiliation": "Executive Member",
+          "note": "",
+          "photo": ""
         }
       ]
     },
@@ -119,48 +159,65 @@
         {
           "name": "মোহাম্মদ হাসিন শাহরিয়ার",
           "role": "ভারপ্রাপ্ত সভাপতি",
-          "affiliation": "Acting President"
+          "affiliation": "Acting President",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "মোছাঃ মার্জিয়া আক্তার",
           "role": "ভারপ্রাপ্ত সহ-সভাপতি",
           "affiliation": "Acting Vice President",
-          "note": "তর্ক তরঙ্গ ২৬-এর Debater of the Tournament"
+          "note": "তর্ক তরঙ্গ ২৬-এর Debater of the Tournament",
+          "photo": ""
         },
         {
           "name": "জুনাইদ আহমেদ তন্ময়",
           "role": "ভারপ্রাপ্ত সাধারণ সম্পাদক",
-          "affiliation": "Acting General Secretary"
+          "affiliation": "Acting General Secretary",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "রুমাইয়া বিনতে রশিদ",
           "role": "ভারপ্রাপ্ত সাংগঠনিক সম্পাদক",
-          "affiliation": "Acting Organizing Secretary"
+          "affiliation": "Acting Organizing Secretary",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "নাজমুস সাকিব অর্ণব",
           "role": "ভারপ্রাপ্ত দপ্তর সম্পাদক",
-          "affiliation": "Acting Office Secretary"
+          "affiliation": "Acting Office Secretary",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "মাইশা হাসানা",
           "role": "ভারপ্রাপ্ত বিতর্ক ও কর্মশালা সম্পাদক",
-          "affiliation": "Acting Debate & Workshop Secretary"
+          "affiliation": "Acting Debate & Workshop Secretary",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "নাহিয়া কহনা",
           "role": "ভারপ্রাপ্ত জনসংযোগ সম্পাদক",
-          "affiliation": "Acting Public Relations Secretary"
+          "affiliation": "Acting Public Relations Secretary",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "রাফিকা তুল কোবরা",
           "role": "ভারপ্রাপ্ত মানবসম্পদ সম্পাদক",
-          "affiliation": "Acting Human Resource Secretary"
+          "affiliation": "Acting Human Resource Secretary",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "আফরা অন্তি",
           "role": "ভারপ্রাপ্ত কোষাধ্যক্ষ",
-          "affiliation": "Acting Treasurer"
+          "affiliation": "Acting Treasurer",
+          "note": "",
+          "photo": ""
         }
       ]
     },
@@ -174,12 +231,16 @@
         {
           "name": "অরুপ রতন",
           "role": "উপদেষ্টা, BDS",
-          "affiliation": "যুগ্ম মহাসচিব, ন্যাশনাল ডিবেট ফেডারেশন বাংলাদেশ (NDF BD)"
+          "affiliation": "যুগ্ম মহাসচিব, ন্যাশনাল ডিবেট ফেডারেশন বাংলাদেশ (NDF BD)",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "মোঃ আবু আওয়াল সরদার",
           "role": "শিক্ষক ও উপদেষ্টা",
-          "affiliation": "সহ-সভাপতি (প্রকাশনা), NDF BD"
+          "affiliation": "সহ-সভাপতি (প্রকাশনা), NDF BD",
+          "note": "",
+          "photo": ""
         }
       ]
     },
@@ -193,11 +254,16 @@
         {
           "name": "সালমিন মোস্তারি তহুরা",
           "role": "শিক্ষার্থী উপদেষ্টা",
-          "affiliation": "সভাপতি, সরকারি মজিবর রহমান ভান্ডারী মহিলা কলেজ ডিবেটিং ক্লাব"
+          "affiliation": "সভাপতি, সরকারি মজিবর রহমান ভান্ডারী মহিলা কলেজ ডিবেটিং ক্লাব",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "বাইজিদ কাদির",
-          "role": "শিক্ষার্থী উপদেষ্টা"
+          "role": "শিক্ষার্থী উপদেষ্টা",
+          "affiliation": "",
+          "note": "",
+          "photo": ""
         }
       ]
     },
@@ -212,23 +278,29 @@
           "name": "জারিন তাসনিম মিতু",
           "role": "মেন্টর",
           "affiliation": "রাজশাহী বিশ্ববিদ্যালয় ডিবেটিং ফোরাম (RUDF), ইংরেজি বিভাগ",
-          "note": "Beyond Words-এর প্রশিক্ষক; ১ম Solo Speech-এর কলেজ ক্যাটাগরি বিজয়ী"
+          "note": "Beyond Words-এর প্রশিক্ষক; ১ম Solo Speech-এর কলেজ ক্যাটাগরি বিজয়ী",
+          "photo": ""
         },
         {
           "name": "সাজেদুর রাহমান",
           "role": "মেন্টর",
-          "affiliation": "ঢাকা বিশ্ববিদ্যালয় — Biochemistry & Molecular Biology; NDC, BMSC"
+          "affiliation": "ঢাকা বিশ্ববিদ্যালয় — Biochemistry & Molecular Biology; NDC, BMSC",
+          "note": "",
+          "photo": ""
         },
         {
           "name": "আরহাম মুসফিক",
           "role": "মেন্টর",
           "affiliation": "শহীদ সোহরাওয়ার্দী মেডিকেল কলেজ ডিবেট ক্লাব; সাবেক VP (Admin), RCDC",
-          "note": "Traditional Debate Mastery কর্মশালার মেন্টর"
+          "note": "Traditional Debate Mastery কর্মশালার মেন্টর",
+          "photo": ""
         },
         {
           "name": "রেশমা রহমান",
           "role": "মেন্টর",
-          "affiliation": "স্যার সলিমুল্লাহ মেডিকেল কলেজ (SSMC)"
+          "affiliation": "স্যার সলিমুল্লাহ মেডিকেল কলেজ (SSMC)",
+          "note": "",
+          "photo": ""
         }
       ]
     }
@@ -238,19 +310,22 @@
       "name": "মোঃ রিশাদ নূর",
       "role": "অতিথি বক্তা",
       "affiliation": "সাবেক সভাপতি, Begum Rokeya University Debate Forum (BRUDF)",
-      "note": "\"Debate: What, Why, How\" অনলাইন সেশন"
+      "note": "\"Debate: What, Why, How\" অনলাইন সেশন",
+      "photo": ""
     },
     {
       "name": "আহসান ইবনাত তুবা",
       "role": "বিচারক",
       "affiliation": "স্যার সলিমুল্লাহ মেডিকেল কলেজ",
-      "note": "তর্ক তরঙ্গ ২৬-এর বিচারকমণ্ডলী"
+      "note": "তর্ক তরঙ্গ ২৬-এর বিচারকমণ্ডলী",
+      "photo": ""
     },
     {
       "name": "জারিন তাসনীম তুবা",
       "role": "বিচারক",
       "affiliation": "শহীদ সোহরাওয়ার্দী মেডিকেল কলেজ ডিবেট ক্লাব",
-      "note": "তর্ক তরঙ্গ ২৬-এর বিচারকমণ্ডলী"
+      "note": "তর্ক তরঙ্গ ২৬-এর বিচারকমণ্ডলী",
+      "photo": ""
     }
   ]
 }
