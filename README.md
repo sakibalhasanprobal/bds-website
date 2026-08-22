@@ -73,14 +73,6 @@ public/images/
 │   ├── thumb-3.jpg     ← আজিজুল হক কলেজ কর্মশালা
 │   ├── thumb-4.jpg     ← বিজয় দিবস বারোয়ারি
 │   └── thumb-5.jpg     ← দুপচাঁচিয়া কর্মশালা
-├── events/
-│   ├── tarko-toronggo-26.jpg
-│   ├── beyond-words-1.jpg
-│   ├── solo-speech-1.jpg
-│   ├── bijoy-dibosh-barwari.jpg
-│   ├── torun-kontho-2026.jpg
-│   ├── intra-championship-nov-2025.jpg
-│   └── traditional-debate-mastery.jpg
 └── team/
     └── leader.jpg      ← হোমপেজের "সংগঠনের ভাবনা" অংশের ছবি
 ```
