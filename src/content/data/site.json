@@ -55,7 +55,7 @@
   },
   "vision": {
     "photo": "/images/uploads/whatsapp-image-2026-05-11-at-11.37.15-am.jpeg",
-    "photoLabel": "নেতৃত্বের ছবি",
+    "photoLabel": "প্রতিষ্ঠাতার ছবি",
     "quote": "যে তরুণ যুক্তি দিয়ে কথা বলতে শেখে, সে কেবল বিতর্ক জেতে না সে নিজের জায়গাটা চিনে নেয়।",
     "quoteEn": "A young person who learns to argue with reason does not just win debates they learn where they stand."
   },
@@ -68,8 +68,8 @@
       "icon": "gavel"
     },
     {
-      "value": "১৭+",
-      "valueEn": "17+",
+      "value": "১৮+",
+      "valueEn": "18+",
       "bn": "প্রতিষ্ঠানে কর্মশালা",
       "en": "Institutions reached",
       "icon": "school"
@@ -100,8 +100,8 @@
       "icon": "gavel"
     },
     {
-      "value": "১৭+",
-      "valueEn": "17+",
+      "value": "১৮+",
+      "valueEn": "18+",
       "bn": "স্কুল-কলেজে কর্মশালা",
       "en": "School & college workshops",
       "note": "ক্যাম্পাস কানেক্ট ক্যাম্পেইন",
@@ -127,12 +127,12 @@
       "icon": "map-pin"
     },
     {
-      "value": "৫৫০+",
-      "valueEn": "550+",
-      "bn": "শিক্ষার্থীর আয়োজনে বিচারকের দায়িত্ব",
-      "en": "Students judged at one festival",
-      "note": "কালচারাল ফেস্ট ২০২৬",
-      "noteEn": "Cultural Fest 2026",
+      "value": "১০৫০+",
+      "valueEn": "1050+",
+      "bn": "নিবন্ধিত সদস্য",
+      "en": "Registered Members",
+      "note": "মোট সদস্য",
+      "noteEn": "Total Members",
       "icon": "scale"
     }
   ],
