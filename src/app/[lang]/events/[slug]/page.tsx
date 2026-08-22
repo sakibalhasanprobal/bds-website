@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowLeft, Quote, Trophy, Users, Scale } from 'lucide-react';
-import Photo from '@/components/Photo';
 import { Section } from '@/components/ui';
 import { LANGS, type Lang } from '@/content/site';
 import { getDict } from '@/content/dict';
@@ -26,7 +25,7 @@ export default async function EventDetail({ params }: { params: Promise<{ lang: 
           <Link href={`/${lang}/events`} className="focus-ring mb-6 inline-flex items-center gap-2 text-[0.84rem] font-bold text-[var(--primary)]">
             <ArrowLeft className="size-4" aria-hidden /> {d.events.title}
           </Link>
-          <div className="grid gap-8 lg:grid-cols-[1.15fr_1fr] lg:items-center">
+          <div className="max-w-3xl">
             <div className="animate-fade-up">
               <div className="flex flex-wrap items-center gap-2">
                 <span className={`tag ${e.tag}`}>{e.tagLabel}</span>
@@ -36,14 +35,6 @@ export default async function EventDetail({ params }: { params: Promise<{ lang: 
               <h1 className="mt-2 text-[clamp(1.8rem,3.6vw,2.9rem)]">{bn ? e.title : e.titleEn}</h1>
               <div className="hairline mt-5 max-w-md" />
               <p className="mt-5 text-[1rem] leading-8 text-[var(--text-secondary)]">{bn ? e.summary : e.summaryEn}</p>
-            </div>
-            <div className="stage-frame lens animate-fade-up-delay mx-auto w-full max-w-[480px]">
-              <Photo
-                src={e.image ?? `/images/events/${e.slug}.jpg`}
-                alt={bn ? e.title : e.titleEn}
-                label={bn ? e.title : e.titleEn}
-                className="h-full w-full object-cover"
-              />
             </div>
           </div>
         </div>
