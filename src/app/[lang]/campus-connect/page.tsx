@@ -174,8 +174,8 @@ export default async function CampusPage({ params }: { params: Promise<{ lang: s
             <div className="mt-5 flex items-start gap-2 rounded-lg bg-[rgba(201,162,39,0.12)] p-4 text-[0.84rem] leading-7">
               <CheckCircle2 className="mt-1 size-4 shrink-0 text-[var(--accent)]" aria-hidden />
               {bn
-                ? 'গাবতলী ও ইয়াকুবিয়ায় আমাদের কর্মশালার পর সেখানে নতুন বিতর্ক ক্লাব চালু হয়েছে। আপনার প্রতিষ্ঠানেও সেটা সম্ভব।'
-                : 'After our workshops in Gabtali and Yakubia, new debate clubs started there. The same is possible at your institution.'}
+                ? 'যেসব প্রতিষ্ঠানে বিতর্ক ক্লাব নেই, কর্মশালার পর সেখানে ক্লাব গঠনে আমরা সাহায্য করি। আপনি চাইলে আপনার প্রতিষ্ঠানেও সেটা সম্ভব।'
+                : 'Where there is no debate club yet, we help start one after the workshop. If you want, the same is possible at your institution.'}
             </div>
           </div>
         </div>
