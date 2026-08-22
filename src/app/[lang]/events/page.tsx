@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
-import Photo from '@/components/Photo';
 import { PageHero, Section } from '@/components/ui';
 import { LANGS, type Lang } from '@/content/site';
 import { getDict } from '@/content/dict';
@@ -28,6 +27,7 @@ export default async function EventsPage({ params }: { params: Promise<{ lang: s
       <Section band="chamber">
         <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
           {sorted.map((e, i) => (
+            <article
               key={e.slug}
               className={`reveal ${i % 2 ? 'reveal-left' : ''} paper-card interactive-card group overflow-hidden`}
               style={{ ['--reveal-delay' as string]: `${Math.min(i, 6) * 0.05}s` }}
