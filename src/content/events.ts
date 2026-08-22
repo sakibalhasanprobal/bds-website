@@ -16,7 +16,6 @@ export type BdsEvent = {
   tagLabel: string;
   summary: string;
   summaryEn: string;
-  image?: string;
   featured?: boolean;
   details: EventRow[];
   motions?: { label: string; text: string }[];
