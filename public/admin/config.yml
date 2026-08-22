@@ -176,7 +176,6 @@ collections:
               - { name: tagLabel, label: "ট্যাগ লেখা", widget: string }
               - { name: summary, label: "সারসংক্ষেপ (বাংলা)", widget: text }
               - { name: summaryEn, label: "সারসংক্ষেপ (English)", widget: text }
-              - { name: image, label: "ছবি", widget: image, required: false }
               - { name: featured, label: "হোমপেজে দেখাবে?", widget: boolean, required: false, default: false }
               - name: details
                 label: "বিস্তারিত (লেবেল–মান)"
