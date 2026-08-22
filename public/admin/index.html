@@ -85,7 +85,11 @@
 
       function loadCMS() {
         var s = document.createElement('script');
-        s.src = 'https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js';
+        // আধুনিক Sveltia CMS (একই কনফিগ ও লগইন); দরকারে ?classic দিলে পুরনো Decap এডিটর
+        var classic = new URLSearchParams(location.search).has('classic');
+        s.src = classic
+          ? 'https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js'
+          : '/admin/sveltia-cms.js';
         document.body.appendChild(s);
       }
 
