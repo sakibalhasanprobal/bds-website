@@ -220,15 +220,6 @@ export default async function HomePage({ params }: { params: Promise<{ lang: str
               style={{ ['--reveal-delay' as string]: `${i * 0.06}s` }}
             >
               <Link href={`/${lang}/events/${e.slug}`} className="focus-ring block">
-                <div className="relative aspect-[4/3] overflow-hidden">
-                  <Photo
-                    src={e.image ?? `/images/events/${e.slug}.jpg`}
-                    alt={bn ? e.title : e.titleEn}
-                    label={bn ? e.title : e.titleEn}
-                    className="h-full w-full object-cover"
-                    imgClassName="transition duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div className="p-5">
                   <div className="flex flex-wrap items-center gap-2">
                     <span className={`tag ${e.tag}`}>{e.tagLabel}</span>
