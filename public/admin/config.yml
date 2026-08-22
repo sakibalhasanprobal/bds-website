@@ -26,7 +26,7 @@ logo_url: /brand/mark.png
 collections:
   # ───────────────────────── ব্লগ ─────────────────────────
   - name: blog
-    label: "📝 ব্লগ"
+    label: "📝 নোটিশ ও ঘোষণা"
     label_singular: "ব্লগ পোস্ট"
     folder: "content/blog"
     create: true

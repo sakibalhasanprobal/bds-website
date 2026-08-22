@@ -11,7 +11,7 @@ export function generateStaticParams() {
   return LANGS.map((lang) => ({ lang }));
 }
 
-export const metadata = { title: 'ব্লগ · Blog' };
+export const metadata = { title: 'নোটিশ ও ঘোষণা · Notices' };
 
 export default async function BlogPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang: raw } = await params;

@@ -54,7 +54,26 @@ export default async function TeamPage({ params }: { params: Promise<{ lang: str
 
   return (
     <>
-      <PageHero eyebrow={bn ? 'উপদেষ্টা · মেন্টর · কার্যনির্বাহী' : 'Advisors · mentors · executive'} title={d.team.title} sub={d.team.sub} />
+      <PageHero eyebrow={bn ? 'কমিটি · উপদেষ্টা · মেন্টর' : 'Committees · advisors · mentors'} title={d.team.title} sub={d.team.sub} />
+
+      {/* দ্রুত নেভিগেশন — ক্লিক করলে সরাসরি সেই কমিটিতে */}
+      <nav aria-label={bn ? 'কমিটি তালিকা' : 'Committee list'} className="border-b border-[var(--border)] bg-[var(--surface)]">
+        <div className="section-shell flex flex-wrap justify-center gap-2 py-4">
+          {[
+            ...personGroups.map((g) => ({ id: g.slug, label: bn ? g.title : g.titleEn })),
+            { id: 'guests', label: bn ? 'অতিথি বক্তা ও বিচারক' : 'Guest speakers' },
+            { id: 'debaters', label: bn ? 'সক্রিয় বিতার্কিক' : 'Active debaters' },
+          ].map((s) => (
+            <a
+              key={s.id}
+              href={`#${s.id}`}
+              className="focus-ring rounded-full border border-[var(--border-strong)] px-3.5 py-1.5 text-[0.8rem] font-bold text-[var(--text-secondary)] transition hover:border-[var(--accent)] hover:text-[var(--primary)]"
+            >
+              {s.label}
+            </a>
+          ))}
+        </div>
+      </nav>
 
       {personGroups.map((g, gi) => (
         <Section key={g.slug} band={bands[gi % bands.length]} id={g.slug}>
@@ -65,14 +84,14 @@ export default async function TeamPage({ params }: { params: Promise<{ lang: str
         </Section>
       ))}
 
-      <Section band="notes">
+      <Section band="notes" id="guests">
         <SectionHead eyebrow={bn ? 'অতিথি ও সহযোগী' : 'Guests and collaborators'} title={bn ? 'অতিথি বক্তা ও বিচারক' : 'Guest speakers & adjudicators'} />
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {guestSpeakers.map((p, i) => <PersonCard key={p.name} p={p} i={i} />)}
         </div>
       </Section>
 
-      <Section band="house">
+      <Section band="house" id="debaters">
         <SectionHead eyebrow={d.team.debatersSub} title={d.team.debatersTitle} />
         <div className="bench-panel p-5 sm:p-7">
           <ul className="flex flex-wrap gap-2">

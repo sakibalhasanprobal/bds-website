@@ -111,8 +111,50 @@ export default async function CampusPage({ params }: { params: Promise<{ lang: s
             <p className="eyebrow mb-2">{bn ? 'বিনামূল্যে' : 'Free of charge'}</p>
             <h2 className="text-[clamp(1.3rem,2.2vw,1.9rem)]">{d.campus.requestTitle}</h2>
             <div className="hairline mt-4 max-w-xs" />
-            <p className="mt-5 text-[0.95rem] leading-8 text-[var(--text-secondary)]">{d.campus.requestBody}</p>
-            <ul className="mt-6 grid gap-2.5 text-[0.9rem]">
+            <p className="mt-4 text-[0.9rem] leading-7 text-[var(--text-secondary)]">{d.campus.requestBody}</p>
+
+            {/* কর্মশালার অনুরোধ ফর্ম */}
+            <form
+              method="POST"
+              action="https://formsubmit.co/boguradebatingsociety@gmail.com"
+              className="mt-5 grid gap-4"
+            >
+              <input type="hidden" name="_subject" value={bn ? 'BDS ওয়েবসাইট: কর্মশালার অনুরোধ' : 'BDS website: workshop request'} />
+              <input type="hidden" name="_template" value="table" />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_next" value={`https://boguradebatingsociety.pages.dev/${lang}/thanks/`} />
+              <p className="hidden"><label>{bn ? 'খালি রাখুন' : 'Leave empty'}<input name="_honey" /></label></p>
+
+              <div className="grid gap-4 sm:grid-cols-2">
+                <div>
+                  <label className="block text-[0.8rem] font-bold text-[var(--text-secondary)]" htmlFor="w-name">{bn ? 'আপনার নাম' : 'Your name'} *</label>
+                  <input id="w-name" name="name" required className="focus-ring mt-1.5 w-full rounded-lg border border-[var(--border-strong)] bg-[var(--surface)] px-4 py-2.5 text-[0.9rem]" />
+                </div>
+                <div>
+                  <label className="block text-[0.8rem] font-bold text-[var(--text-secondary)]" htmlFor="w-phone">{bn ? 'মোবাইল নম্বর' : 'Mobile number'} *</label>
+                  <input id="w-phone" name="mobile" type="tel" required className="focus-ring mt-1.5 w-full rounded-lg border border-[var(--border-strong)] bg-[var(--surface)] px-4 py-2.5 text-[0.9rem]" />
+                </div>
+              </div>
+              <div>
+                <label className="block text-[0.8rem] font-bold text-[var(--text-secondary)]" htmlFor="w-inst">{bn ? 'প্রতিষ্ঠানের নাম' : 'Institution name'} *</label>
+                <input id="w-inst" name="institution" required className="focus-ring mt-1.5 w-full rounded-lg border border-[var(--border-strong)] bg-[var(--surface)] px-4 py-2.5 text-[0.9rem]" />
+              </div>
+              <div>
+                <label className="block text-[0.8rem] font-bold text-[var(--text-secondary)]" htmlFor="w-role">{bn ? 'উক্ত প্রতিষ্ঠানে আপনি' : 'Your role at the institution'} *</label>
+                <select id="w-role" name="role" required defaultValue="" className="focus-ring mt-1.5 w-full rounded-lg border border-[var(--border-strong)] bg-[var(--surface)] px-4 py-2.5 text-[0.9rem]">
+                  <option value="" disabled>{bn ? 'বেছে নিন' : 'Select'}</option>
+                  {(bn
+                    ? ['শিক্ষার্থী', 'শিক্ষক', 'অ্যালামনাই', 'কর্তৃপক্ষ / স্টাফ', 'অভিভাবক']
+                    : ['Student', 'Teacher', 'Alumni', 'Authority / staff', 'Guardian']
+                  ).map((o) => <option key={o} value={o}>{o}</option>)}
+                </select>
+              </div>
+              <button type="submit" className="btn btn-primary focus-ring justify-self-start">
+                {bn ? 'অনুরোধ পাঠান' : 'Send request'}
+              </button>
+            </form>
+
+            <ul className="mt-6 grid gap-2.5 border-t border-[var(--border)] pt-5 text-[0.9rem]">
               <li className="flex items-center gap-2.5">
                 <Phone className="size-4 text-[var(--primary)]" aria-hidden />
                 <a href={`tel:${site.phoneIntl}`} className="focus-ring font-semibold hover:text-[var(--primary)]">{site.phone}</a>
@@ -122,7 +164,14 @@ export default async function CampusPage({ params }: { params: Promise<{ lang: s
                 <a href={`mailto:${site.email}?subject=${encodeURIComponent(bn ? 'কর্মশালার অনুরোধ' : 'Workshop request')}`} className="focus-ring break-all font-semibold hover:text-[var(--primary)]">{site.email}</a>
               </li>
             </ul>
-            <div className="mt-6 flex items-start gap-2 rounded-lg bg-[rgba(201,162,39,0.12)] p-4 text-[0.84rem] leading-7">
+            <p className="mt-3 text-[0.84rem] leading-7 text-[var(--text-secondary)]">
+              {bn ? 'চাইলে আমাদের ' : 'You can also message our '}
+              <a href={site.facebook} target="_blank" rel="noopener noreferrer" className="focus-ring font-bold text-[var(--primary)] underline underline-offset-4">
+                {bn ? 'Facebook পেজে নক করতে পারেন' : 'Facebook page'}
+              </a>
+              {bn ? '।' : '.'}
+            </p>
+            <div className="mt-5 flex items-start gap-2 rounded-lg bg-[rgba(201,162,39,0.12)] p-4 text-[0.84rem] leading-7">
               <CheckCircle2 className="mt-1 size-4 shrink-0 text-[var(--accent)]" aria-hidden />
               {bn
                 ? 'গাবতলী ও ইয়াকুবিয়ায় আমাদের কর্মশালার পর সেখানে নতুন বিতর্ক ক্লাব চালু হয়েছে। আপনার প্রতিষ্ঠানেও সেটা সম্ভব।'

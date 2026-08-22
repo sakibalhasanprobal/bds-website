@@ -935,3 +935,6 @@ button, input, textarea, select { font: inherit; color: inherit; }
 .blog-body strong { color: var(--foreground); }
 .blog-body code { background: rgba(30, 58, 138, 0.08); border-radius: 4px; padding: 0.1em 0.35em; font-size: 0.9em; }
 .dark .blog-body code { background: rgba(147, 180, 255, 0.12); }
+
+/* অ্যাংকর-লিংকে গেলে sticky হেডারের নিচে যেন না ঢাকা পড়ে */
+section[id] { scroll-margin-top: 90px; }

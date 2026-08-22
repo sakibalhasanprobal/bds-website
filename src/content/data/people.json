@@ -223,8 +223,8 @@
     },
     {
       "slug": "advisors",
-      "title": "উপদেষ্টা প্যানেল",
-      "titleEn": "Advisory Panel",
+      "title": "উপদেষ্টা কমিটি",
+      "titleEn": "Advisory Committee",
       "blurb": "জাতীয় বিতর্ক অঙ্গনের অভিজ্ঞ মানুষেরা, যাঁদের দিকনির্দেশনায় BDS পথ চলে।",
       "blurbEn": "Experienced figures from the national debate circuit who guide BDS.",
       "people": [
@@ -246,8 +246,8 @@
     },
     {
       "slug": "student-advisors",
-      "title": "শিক্ষার্থী উপদেষ্টা",
-      "titleEn": "Student Advisors",
+      "title": "শিক্ষার্থী উপদেষ্টা কমিটি",
+      "titleEn": "Student Advisory Committee",
       "blurb": "বগুড়ার কলেজ ডিবেটিং ক্লাবগুলোর সাথে সেতুবন্ধন।",
       "blurbEn": "Our bridge to the debating clubs of Bogura’s colleges.",
       "people": [

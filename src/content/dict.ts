@@ -13,7 +13,7 @@ export const bn = {
     campus: 'ক্যাম্পাস কানেক্ট',
     events: 'আয়োজন',
     team: 'টিম',
-    blog: 'ব্লগ',
+    blog: 'নোটিশ ও ঘোষণা',
     partners: 'অংশীদার',
     contact: 'যোগাযোগ',
     join: 'সদস্য হও',
@@ -195,9 +195,9 @@ export const bn = {
     rights: 'সর্বস্বত্ব সংরক্ষিত',
   },
   blog: {
-    title: 'ব্লগ',
-    sub: 'খবর, ঘোষণা আর বিতর্ক নিয়ে লেখালেখি — BDS-এর নিজস্ব পাতা থেকে।',
-    empty: 'এখনো কোনো লেখা প্রকাশিত হয়নি। শীঘ্রই আসছে।',
+    title: 'নোটিশ ও ঘোষণা',
+    sub: 'BDS-এর অফিসিয়াল নোটিশ, ঘোষণা আর খবর — সব এক জায়গায়।',
+    empty: 'এখনো কোনো নোটিশ প্রকাশিত হয়নি। শীঘ্রই আসছে।',
   },
   notFound: {
     motion: 'এই সংসদ বিশ্বাস করে যে এই পাতাটির অস্তিত্ব নেই।',
@@ -217,7 +217,7 @@ export const en: Dict = {
     campus: 'Campus Connect',
     events: 'Events',
     team: 'Team',
-    blog: 'Blog',
+    blog: 'Notices',
     partners: 'Partners',
     contact: 'Contact',
     join: 'Join BDS',
@@ -399,9 +399,9 @@ export const en: Dict = {
     rights: 'All rights reserved',
   },
   blog: {
-    title: 'Blog',
-    sub: 'News, announcements and writing about debate — from BDS itself.',
-    empty: 'Nothing published yet. Coming soon.',
+    title: 'Notice & Announcements',
+    sub: 'Official notices, announcements and news from BDS — all in one place.',
+    empty: 'No notices published yet. Coming soon.',
   },
   notFound: {
     motion: 'This House believes that this page does not exist.',
