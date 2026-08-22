@@ -28,21 +28,11 @@ export default async function EventsPage({ params }: { params: Promise<{ lang: s
       <Section band="chamber">
         <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
           {sorted.map((e, i) => (
-            <article
               key={e.slug}
               className={`reveal ${i % 2 ? 'reveal-left' : ''} paper-card interactive-card group overflow-hidden`}
               style={{ ['--reveal-delay' as string]: `${Math.min(i, 6) * 0.05}s` }}
             >
               <Link href={`/${lang}/events/${e.slug}`} className="focus-ring block">
-                <div className="relative aspect-[16/10] overflow-hidden">
-                  <Photo
-                    src={e.image ?? `/images/events/${e.slug}.jpg`}
-                    alt={bn ? e.title : e.titleEn}
-                    label={bn ? e.title : e.titleEn}
-                    className="h-full w-full object-cover"
-                    imgClassName="transition duration-500 group-hover:scale-105"
-                  />
-                </div>
                 <div className="p-5">
                   <div className="flex flex-wrap items-center gap-2">
                     <span className={`tag ${e.tag}`}>{e.tagLabel}</span>
