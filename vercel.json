@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "outputDirectory": "out",
+  "redirects": [
+    { "source": "/", "destination": "/bn/", "permanent": false }
+  ],
+  "rewrites": [
+    { "source": "/auth", "destination": "/api/auth" },
+    { "source": "/auth/", "destination": "/api/auth" },
+    { "source": "/callback", "destination": "/api/callback" },
+    { "source": "/callback/", "destination": "/api/callback" }
+  ]
+}

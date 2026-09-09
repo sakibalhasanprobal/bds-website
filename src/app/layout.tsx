@@ -47,6 +47,21 @@ const themeScript = `
 })();
 `;
 
+/** ফর্ম সাবমিটের পরে যেন সবসময় নিজের ডোমেইনের "ধন্যবাদ" পাতায় ফেরে */
+const formNextScript = `
+(function(){
+  function fix(){
+    try{
+      var list = document.querySelectorAll('input[name="_next"]');
+      for (var i = 0; i < list.length; i++) {
+        try { list[i].value = location.origin + new URL(list[i].value).pathname; } catch(e){}
+      }
+    }catch(e){}
+  }
+  if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', fix); } else { fix(); }
+})();
+`;
+
 const orgJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
@@ -81,7 +96,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }} />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <script dangerouslySetInnerHTML={{ __html: formNextScript }} />
+      </body>
     </html>
   );
 }
