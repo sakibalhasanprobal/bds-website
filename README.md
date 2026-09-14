@@ -41,11 +41,6 @@ Next.js দিয়ে বানানো, সম্পূর্ণ স্ট�
 
 `main` ব্রাঞ্চে কিছু পুশ হলেই Cloudflare নিজে নতুন বিল্ড দিয়ে সাইট আপডেট করে দেয়।
 
-### Vercel-এ নিতে চাইলে
-
-রিপোজিটরিতে `vercel.json` আর `api/auth.js`, `api/callback.js` রাখা আছে — Vercel-এ
-ইমপোর্ট করলেই কাজ করবে, আলাদা সেটিং লাগবে না। বিস্তারিত ধাপ `VERCEL.md`-তে।
-
 ---
 
 ## ফর্ম
@@ -83,7 +78,6 @@ content/blog/          নোটিশ ও ঘোষণার পোস্ট (m
 public/admin/          অ্যাডমিন প্যানেল (পাসওয়ার্ড লক + Sveltia CMS)
 public/images/         সাইটে ব্যবহৃত ছবি
 functions/             Cloudflare Pages ফাংশন — অ্যাডমিন লগইনের GitHub OAuth
-api/                   ঐ একই কাজ Vercel-এর জন্য
 ```
 
 ---
