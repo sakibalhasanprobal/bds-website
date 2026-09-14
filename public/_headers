@@ -1,0 +1,20 @@
+# Cloudflare Pages — ক্যাশিং ও নিরাপত্তার হেডার
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+
+# বিল্ডের ফাইলগুলোর নামে হ্যাশ থাকে, তাই চিরকাল ক্যাশ করা নিরাপদ
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/brand/*
+  Cache-Control: public, max-age=604800
+
+/images/*
+  Cache-Control: public, max-age=604800
+
+# অ্যাডমিন প্যানেল সার্চ ইঞ্জিনে আসা উচিত নয়
+/admin/*
+  X-Robots-Tag: noindex
