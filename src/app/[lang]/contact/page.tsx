@@ -1,13 +1,18 @@
+import type { Metadata } from 'next';
 import { MapPin, Mail, Phone, Facebook, Building2 } from 'lucide-react';
 import { PageHero, Section, SectionHead } from '@/components/ui';
 import { LANGS, type Lang, site } from '@/content/site';
 import { getDict } from '@/content/dict';
+import { pageMeta } from '@/lib/seo';
 
 export function generateStaticParams() {
   return LANGS.map((lang) => ({ lang }));
 }
 
-export const metadata = { title: 'যোগাযোগ · Contact' };
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  return pageMeta(lang, '/contact');
+}
 
 const field = 'focus-ring w-full rounded-lg border border-[var(--border-strong)] bg-[var(--surface)] px-4 py-3 text-[0.92rem]';
 const labelCls = 'block text-[0.8rem] font-bold text-[var(--text-secondary)]';

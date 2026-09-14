@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { PageHero, Section } from '@/components/ui';
@@ -5,12 +6,16 @@ import { LANGS, type Lang } from '@/content/site';
 import { getDict } from '@/content/dict';
 import { events } from '@/content/events';
 import { num } from '@/lib/num';
+import { pageMeta } from '@/lib/seo';
 
 export function generateStaticParams() {
   return LANGS.map((lang) => ({ lang }));
 }
 
-export const metadata = { title: 'আয়োজন · Events' };
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  return pageMeta(lang, '/events');
+}
 
 export default async function EventsPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang: raw } = await params;

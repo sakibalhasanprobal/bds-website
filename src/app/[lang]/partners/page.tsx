@@ -1,14 +1,19 @@
+import type { Metadata } from 'next';
 import { PageHero, Section, SectionHead } from '@/components/ui';
 import { LANGS, type Lang } from '@/content/site';
 import { getDict } from '@/content/dict';
 import { partners } from '@/content/timeline';
 import { num } from '@/lib/num';
+import { pageMeta } from '@/lib/seo';
 
 export function generateStaticParams() {
   return LANGS.map((lang) => ({ lang }));
 }
 
-export const metadata = { title: 'অংশীদার · Partners' };
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  return pageMeta(lang, '/partners');
+}
 
 export default async function PartnersPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang: raw } = await params;

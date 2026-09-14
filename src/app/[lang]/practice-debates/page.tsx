@@ -1,15 +1,20 @@
+import type { Metadata } from 'next';
 import { AlertCircle } from 'lucide-react';
 import { PageHero, Section } from '@/components/ui';
 import { LANGS, type Lang } from '@/content/site';
 import { getDict } from '@/content/dict';
 import { practiceDebates } from '@/content/practiceDebates';
 import { pad2 } from '@/lib/num';
+import { pageMeta } from '@/lib/seo';
 
 export function generateStaticParams() {
   return LANGS.map((lang) => ({ lang }));
 }
 
-export const metadata = { title: 'অনুশীলনী বিতর্ক · Practice Debates' };
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  return pageMeta(lang, '/practice-debates');
+}
 
 export default async function PracticePage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang: raw } = await params;

@@ -1,14 +1,19 @@
+import type { Metadata } from 'next';
 import { Award } from 'lucide-react';
 import { PageHero, Section } from '@/components/ui';
 import { LANGS, type Lang } from '@/content/site';
 import { getDict } from '@/content/dict';
 import { bestSpeakers } from '@/content/practiceDebates';
+import { pageMeta } from '@/lib/seo';
 
 export function generateStaticParams() {
   return LANGS.map((lang) => ({ lang }));
 }
 
-export const metadata = { title: 'শ্রেষ্ঠ বক্তারা · Best Speakers' };
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  return pageMeta(lang, '/best-speakers');
+}
 
 export default async function BestSpeakersPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang: raw } = await params;

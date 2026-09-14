@@ -18,11 +18,13 @@ export const metadata: Metadata = {
     title: `${site.nameBn} — ${site.sloganBn}`,
     description: site.identityBn,
     locale: 'bn_BD',
+    images: [{ url: '/brand/og.png', width: 1200, height: 630, alt: site.nameEn }],
   },
   twitter: {
     card: 'summary_large_image',
     title: site.nameEn,
     description: site.identityEn,
+    images: ['/brand/og.png'],
   },
   icons: { icon: '/brand/mark.png', apple: '/brand/mark.png' },
 };
@@ -43,6 +45,10 @@ const themeScript = `
     var t = localStorage.getItem('bds-theme');
     if(!t){ t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
     if(t === 'dark'){ document.documentElement.classList.add('dark'); }
+  }catch(e){}
+  try{
+    var seg = location.pathname.split('/')[1];
+    if(seg === 'en' || seg === 'bn'){ document.documentElement.lang = seg; }
   }catch(e){}
 })();
 `;

@@ -1,15 +1,20 @@
+import type { Metadata } from 'next';
 import { PageHero, Section, SectionHead } from '@/components/ui';
 import { LANGS, type Lang } from '@/content/site';
 import { getDict } from '@/content/dict';
 import { personGroups, guestSpeakers, type Person } from '@/content/people';
 import { activeDebaters } from '@/content/practiceDebates';
 import { hasImage } from '@/lib/img';
+import { pageMeta } from '@/lib/seo';
 
 export function generateStaticParams() {
   return LANGS.map((lang) => ({ lang }));
 }
 
-export const metadata = { title: 'টিম · Team' };
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  return pageMeta(lang, '/team');
+}
 
 function initials(name: string) {
   const parts = name.trim().split(/\s+/);

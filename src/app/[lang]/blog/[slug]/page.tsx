@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowLeft } from 'lucide-react';
@@ -6,10 +7,19 @@ import { Section } from '@/components/ui';
 import { LANGS, type Lang } from '@/content/site';
 import { getDict } from '@/content/dict';
 import { getAllPosts, getPost } from '@/lib/blog';
+import { docMeta, urlFor } from '@/lib/seo';
+import { site } from '@/content/site';
 
 export function generateStaticParams() {
   const posts = getAllPosts();
   return LANGS.flatMap((lang) => posts.map((p) => ({ lang, slug: p.slug })));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ lang: string; slug: string }> }): Promise<Metadata> {
+  const { lang, slug } = await params;
+  const post = getPost(decodeURIComponent(slug));
+  if (!post) return {};
+  return docMeta(lang, `/blog/${post.slug}`, post.title, post.excerpt, { openGraph: { type: 'article' } as Metadata['openGraph'] });
 }
 
 export default async function BlogPost({ params }: { params: Promise<{ lang: string; slug: string }> }) {
@@ -19,8 +29,22 @@ export default async function BlogPost({ params }: { params: Promise<{ lang: str
   const post = getPost(decodeURIComponent(slug));
   if (!post) notFound();
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'NewsArticle',
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: post.date,
+    inLanguage: lang === 'bn' ? 'bn-BD' : 'en',
+    mainEntityOfPage: urlFor(lang as 'bn' | 'en', `/blog/${post.slug}`),
+    image: [`${site.domain}/brand/og.png`],
+    author: { '@type': 'Organization', name: site.nameEn, url: site.domain },
+    publisher: { '@type': 'Organization', name: site.nameEn, url: site.domain, logo: { '@type': 'ImageObject', url: `${site.domain}/brand/mark.png` } },
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <section className="band band-chamber border-b border-[var(--border)] py-12 sm:py-16">
         <div className="section-shell">
           <Link href={`/${lang}/blog`} className="focus-ring mb-6 inline-flex items-center gap-2 text-[0.84rem] font-bold text-[var(--primary)]">

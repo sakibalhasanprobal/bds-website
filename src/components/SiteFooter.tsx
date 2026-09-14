@@ -48,7 +48,7 @@ export default function SiteFooter({ lang }: { lang: Lang }) {
           </div>
 
           <div>
-            <h3 className="text-[1.05rem]">{d.footer.links}</h3>
+            <h2 className="text-[1.05rem]">{d.footer.links}</h2>
             <ul className="mt-4 space-y-2 text-[0.88rem]">
               {links.map((l) => (
                 <li key={l.href}>
@@ -61,7 +61,7 @@ export default function SiteFooter({ lang }: { lang: Lang }) {
           </div>
 
           <div>
-            <h3 className="text-[1.05rem]">{d.footer.community}</h3>
+            <h2 className="text-[1.05rem]">{d.footer.community}</h2>
             <ul className="mt-4 space-y-2 text-[0.88rem]">
               <li><Link href={`/${lang}/join`} className="focus-ring text-[var(--text-secondary)] hover:text-[var(--primary)]">{d.nav.join}</Link></li>
               <li><Link href={`/${lang}/campus-connect`} className="focus-ring text-[var(--text-secondary)] hover:text-[var(--primary)]">{bn ? 'কর্মশালা চাই' : 'Request a workshop'}</Link></li>

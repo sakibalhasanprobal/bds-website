@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import {
   Gavel, GraduationCap, Trophy, Landmark, Send, ArrowRight, MapPin,
@@ -14,9 +15,15 @@ import { featuredEvents } from '@/content/events';
 import { personGroups } from '@/content/people';
 import { partners as partnerList } from '@/content/timeline';
 import { num, pad2 } from '@/lib/num';
+import { pageMeta } from '@/lib/seo';
 
 export function generateStaticParams() {
   return LANGS.map((lang) => ({ lang }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  return pageMeta(lang, '');
 }
 
 const actIcons: Record<string, React.ComponentType<{ className?: string }>> = {

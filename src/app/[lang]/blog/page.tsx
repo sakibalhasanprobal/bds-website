@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import Photo from '@/components/Photo';
@@ -6,12 +7,16 @@ import { LANGS, type Lang } from '@/content/site';
 import { getDict } from '@/content/dict';
 import { getAllPosts } from '@/lib/blog';
 import { num } from '@/lib/num';
+import { pageMeta } from '@/lib/seo';
 
 export function generateStaticParams() {
   return LANGS.map((lang) => ({ lang }));
 }
 
-export const metadata = { title: 'নোটিশ ও ঘোষণা · Notices' };
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  return pageMeta(lang, '/blog');
+}
 
 export default async function BlogPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang: raw } = await params;

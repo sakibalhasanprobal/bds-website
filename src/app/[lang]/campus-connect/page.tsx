@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { MapPin, CheckCircle2, Mail, Phone } from 'lucide-react';
 import { PageHero, Section, SectionHead } from '@/components/ui';
 import { LANGS, type Lang, site } from '@/content/site';
@@ -5,12 +6,16 @@ import { getDict } from '@/content/dict';
 import { campusStops, workshopCurriculum, campusAreas } from '@/content/campus';
 import { num } from '@/lib/num';
 import { pad2 } from '@/lib/num';
+import { pageMeta } from '@/lib/seo';
 
 export function generateStaticParams() {
   return LANGS.map((lang) => ({ lang }));
 }
 
-export const metadata = { title: 'Campus Connect' };
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  return pageMeta(lang, '/campus-connect');
+}
 
 export default async function CampusPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang: raw } = await params;

@@ -1,14 +1,19 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { CheckCircle2 } from 'lucide-react';
 import { Section } from '@/components/ui';
 import { LANGS, type Lang } from '@/content/site';
 import { getDict } from '@/content/dict';
+import { pageMeta } from '@/lib/seo';
 
 export function generateStaticParams() {
   return LANGS.map((lang) => ({ lang }));
 }
 
-export const metadata = { title: 'ধন্যবাদ · Thank you' };
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  return pageMeta(lang, '/thanks', { robots: { index: false, follow: true } });
+}
 
 export default async function ThanksPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang: raw } = await params;

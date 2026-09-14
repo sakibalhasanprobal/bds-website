@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Star, ArrowRight, Target, Eye, Heart } from 'lucide-react';
 import { PageHero, Section, SectionHead } from '@/components/ui';
@@ -5,12 +6,16 @@ import { LANGS, type Lang, purpose, site, activities } from '@/content/site';
 import { getDict } from '@/content/dict';
 import { timeline } from '@/content/timeline';
 import { pad2 } from '@/lib/num';
+import { pageMeta } from '@/lib/seo';
 
 export function generateStaticParams() {
   return LANGS.map((lang) => ({ lang }));
 }
 
-export const metadata = { title: 'আমাদের সম্পর্কে · About' };
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  return pageMeta(lang, '/about');
+}
 
 export default async function AboutPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang: raw } = await params;

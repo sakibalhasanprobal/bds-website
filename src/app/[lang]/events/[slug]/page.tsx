@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowLeft, Quote, Trophy, Users, Scale } from 'lucide-react';
@@ -5,9 +6,19 @@ import { Section } from '@/components/ui';
 import { LANGS, type Lang } from '@/content/site';
 import { getDict } from '@/content/dict';
 import { events } from '@/content/events';
+import { docMeta, urlFor } from '@/lib/seo';
+import { site } from '@/content/site';
 
 export function generateStaticParams() {
   return LANGS.flatMap((lang) => events.map((e) => ({ lang, slug: e.slug })));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ lang: string; slug: string }> }): Promise<Metadata> {
+  const { lang, slug } = await params;
+  const e = events.find((x) => x.slug === slug);
+  if (!e) return {};
+  const bn = lang !== 'en';
+  return docMeta(lang, `/events/${e.slug}`, bn ? e.title : e.titleEn, bn ? e.summary : e.summaryEn);
 }
 
 export default async function EventDetail({ params }: { params: Promise<{ lang: string; slug: string }> }) {
@@ -18,8 +29,24 @@ export default async function EventDetail({ params }: { params: Promise<{ lang: 
   const e = events.find((x) => x.slug === slug);
   if (!e) notFound();
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Event',
+    name: bn ? e.title : e.titleEn,
+    description: bn ? e.summary : e.summaryEn,
+    startDate: e.sortKey,
+    eventStatus: 'https://schema.org/EventScheduled',
+    eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+    inLanguage: bn ? 'bn-BD' : 'en',
+    url: urlFor(lang, `/events/${e.slug}`),
+    image: [`${site.domain}/brand/og.png`],
+    location: { '@type': 'Place', name: 'Bogura', address: { '@type': 'PostalAddress', addressLocality: 'Bogura', addressCountry: 'BD' } },
+    organizer: { '@type': 'Organization', name: site.nameEn, url: site.domain },
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <section className="band band-chamber border-b border-[var(--border)] py-12 sm:py-16">
         <div className="section-shell">
           <Link href={`/${lang}/events`} className="focus-ring mb-6 inline-flex items-center gap-2 text-[0.84rem] font-bold text-[var(--primary)]">
