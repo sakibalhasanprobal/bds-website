@@ -90,7 +90,6 @@ functions/             Cloudflare Pages ফাংশন — অ্যাডম�
 - **SEO** — প্রতি পাতায় আলাদা বিবরণ, canonical, hreflang, og:image; sitemap ও robots.txt
   অটো তৈরি হয়; নোটিশে NewsArticle আর আয়োজনে Event schema বসে
 - **CMS** — [Sveltia CMS](https://github.com/sveltia/sveltia-cms), Decap-এর কনফিগেই চলে।
-  দরকারে `/admin/?classic` দিলে পুরনো Decap এডিটর খোলে
 
 ---
 
