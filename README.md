@@ -75,7 +75,7 @@ src/content/data/      সাইটের সব লেখা ও তথ্য (
 src/content/*.ts       ওই JSON ফাইলগুলোর টাইপ-সহ র‍্যাপার
 src/lib/seo.ts         প্রতিটি পাতার টাইটেল, বিবরণ, canonical ও hreflang
 content/blog/          নোটিশ ও ঘোষণার পোস্ট (markdown)
-public/admin/          অ্যাডমিন প্যানেল (পাসওয়ার্ড লক + Sveltia CMS)
+public/admin/          অ্যাডমিন প্যানেল (GitHub লগইন + Sveltia CMS)
 public/images/         সাইটে ব্যবহৃত ছবি
 functions/             Cloudflare Pages ফাংশন — অ্যাডমিন লগইনের GitHub OAuth
 ```
