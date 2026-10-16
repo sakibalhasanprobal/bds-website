@@ -29,11 +29,7 @@
       try { localStorage.removeItem('bds-admin-unlocked'); } catch (e) {}
 
       var s = document.createElement('script');
-      // আধুনিক Sveltia CMS; দরকারে ?classic দিলে পুরনো Decap এডিটর
-      var classic = new URLSearchParams(location.search).has('classic');
-      s.src = classic
-        ? 'https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js'
-        : '/admin/sveltia-cms.js';
+      s.src = '/admin/sveltia-cms.js';
       document.body.appendChild(s);
     })();
   </script>
