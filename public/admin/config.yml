@@ -228,7 +228,6 @@ collections:
                 label: "ধরন"
                 widget: select
                 options: ["সনাতনী", "সংসদীয়", "বারোয়ারি", "একক বক্তৃতা"]
-              - { name: motionId, label: "মোশন আইডি (ঐচ্ছিক, যেমন pd-20)", widget: string, required: false }
               - { name: motion, label: "বিষয়", widget: text }
               - { name: winner, label: "বিজয়ী (পক্ষ/বিপক্ষ/সরকারি দল/বিরোধী দল)", widget: string }
               - { name: bestSpeaker, label: "শ্রেষ্ঠ বক্তা", widget: string }
