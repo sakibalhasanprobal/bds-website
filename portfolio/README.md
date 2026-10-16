@@ -16,11 +16,16 @@ Open `index.html` in a browser to view it, or upload this whole folder to any st
 | `assets/portrait-data.js` | Small embedded copy of the photo that the particle portrait reads |
 | `assets/work-*.jpg` | Project screenshots |
 
-## Things to fill in before going live
+## Contact details (set)
 
-- **Contact** (`index.html`, contact section): email, phone, WhatsApp link (`https://wa.me/880…`), LinkedIn and Facebook URLs. They are placeholders now.
-- **Role / location**: "Web Developer" and "Bogura, Bangladesh" are in `index.html`. Change them if they're wrong.
+- Email: connect.probal@gmail.com
+- Phone / WhatsApp: +880 1764-536746 (WhatsApp link: https://wa.me/qr/KN6NFKE4DYGFI1)
+- GitHub: github.com/sakibalhasanprobal
+
+## Still to fill in
+
 - **Projects 03 and 04** in `main.js` (`PROJECTS`) are placeholder slots. Replace the text, and set `media: { type: 'laptop', src: 'assets/your-shot.jpg' }` to use a real screenshot.
+- LinkedIn / Facebook icons can go back into the "Elsewhere" row in `index.html` once you have the links.
 - If the `bds-website` GitHub repo is private, remove that GitHub button from project 01.
 
 ## Changing the portrait

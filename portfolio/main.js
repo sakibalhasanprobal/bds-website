@@ -242,7 +242,23 @@
         const settle = 0.35 + (i / letters.length) * 0.55;
         s.textContent = t >= settle ? s.dataset.c : GLYPHS[(Math.random() * GLYPHS.length) | 0];
       });
-      if (t < 1) requestAnimationFrame(tick); else setTimeout(done, 280);
+      if (t < 1) requestAnimationFrame(tick); else setTimeout(() => morphTo('PROBAL', done), 320);
+    })(t0);
+  }
+
+  // second beat of the intro: PORTFOLIO scrambles into PROBAL, with the full name underneath
+  function morphTo(word, done) {
+    lines[0].innerHTML = [...word].map((c) => `<span class="in" data-c="${c}">${c}</span>`).join('');
+    lines[1].innerHTML = '';
+    loader.classList.add('is-name');
+    const spans = $$('span', lines[0]);
+    const t0 = performance.now(), DUR = 750;
+    (function tick(now) {
+      const t = clamp((now - t0) / DUR, 0, 1);
+      spans.forEach((s, i) => {
+        s.textContent = t >= 0.3 + (i / spans.length) * 0.6 ? s.dataset.c : GLYPHS[(Math.random() * GLYPHS.length) | 0];
+      });
+      if (t < 1) requestAnimationFrame(tick); else setTimeout(done, 650);
     })(t0);
   }
 
@@ -645,6 +661,18 @@
       if (game.visible && game.state === 'play') loop();
     }).observe(c);
   }
+
+  // copy buttons for email / phone
+  $$('[data-copy]').forEach((btn) => btn.addEventListener('click', () => {
+    const label = btn.textContent;
+    const flash = (msg) => { btn.textContent = msg; setTimeout(() => { btn.textContent = label; }, 1400); };
+    const fallback = () => {
+      const r = document.createRange(); r.selectNodeContents(btn.previousElementSibling);
+      const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); flash('Selected');
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(btn.dataset.copy).then(() => flash('Copied'), fallback);
+    else fallback();
+  }));
 
   /* ------------------------------------------------------------------------
      BOOT
