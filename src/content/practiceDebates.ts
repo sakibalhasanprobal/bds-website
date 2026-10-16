@@ -6,7 +6,6 @@ export type PracticeDebate = {
   no: number;
   noBn: string;
   format: MotionFormat;
-  motionId?: string;
   motion: string;
   winner: string;
   bestSpeaker: string;
